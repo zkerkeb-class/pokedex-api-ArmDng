@@ -3,10 +3,14 @@ import User from "../models/User.js";
 
 // Générer un token JWT
 const generateToken = (id) => {
-    return jwt.sign({ id }, process.env.JWT_SECRET, { expiresIn: "15m" });
+    return jwt.sign({ id }, process.env.JWT_SECRET, { expiresIn: "30m" });
 };
 
-// Inscription
+/**
+ * Gère l'inscription des utilisateurs
+ * @param {Request} req - L'objet request d'Express
+ * @param {Response} res - L'objet response d'Express
+ */
 export const registerUser = async (req, res) => {
     const { username, password } = req.body;
 
@@ -33,7 +37,11 @@ export const registerUser = async (req, res) => {
     }
 };
 
-// Connexion
+/**
+ * Gère la connexion des utilisateurs
+ * @param {Request} req - L'objet request d'Express
+ * @param {Response} res - L'objet response d'Express
+ */
 export const loginUser = async (req, res) => {
     const { username, password } = req.body;
 

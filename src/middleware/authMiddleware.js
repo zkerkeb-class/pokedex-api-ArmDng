@@ -1,6 +1,12 @@
 import jwt from "jsonwebtoken";
 import User from "../models/User.js";
 
+/**
+ * Middleware pour protéger les routes en vérifiant le token JWT
+ * @param {Request} req - L'objet request d'Express
+ * @param {Response} res - L'objet response d'Express
+ * @param {NextFunction} next - Fonction pour passer au middleware suivant
+ */
 export const protect = async (req, res, next) => {
     let token;
 

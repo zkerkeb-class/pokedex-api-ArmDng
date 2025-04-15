@@ -7,6 +7,7 @@ import connectDB from "./config/db.js";
 import pokemonRoutes from "./routes/pokemonRoutes.js";
 import authRoutes from "./routes/authRoutes.js";
 import apiRateLimiter from "./middleware/rateLimiter.js";
+import {protect} from "./middleware/authMiddleware.js";
 
 dotenv.config();
 
@@ -37,11 +38,9 @@ app.use('/assets', express.static(path.join(__dirname, '../assets')));
 
 app.use(apiRateLimiter);
 
-//app.use(protect);
-
 // Routes
 app.use("/api/pokemons", pokemonRoutes);
-app.use("/api/", authRoutes);
+app.use("/api", authRoutes);
 
 
 

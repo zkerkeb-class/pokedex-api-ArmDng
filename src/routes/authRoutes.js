@@ -3,10 +3,18 @@ import { registerUser, loginUser } from "../controllers/authController.js";
 
 const router = express.Router();
 
-// Route pour l'inscription
+/**
+ * @route   POST /api/register
+ * @desc    Crée un utilisateur
+ * @access  Public
+ */
 router.post("/register", registerUser);
 
-// Route pour la connexion
+/**
+ * @route   POST /api/login
+ * @desc    Authentifie un utilisateur
+ * @access  Public
+ */
 router.post("/login", loginUser);
 
 export default router;

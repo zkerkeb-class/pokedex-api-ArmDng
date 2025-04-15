@@ -1,5 +1,8 @@
 import mongoose from 'mongoose';
 
+/**
+ * Gère la connexion à la BDD MongoDB
+ */
 const connectDB = async () => {
     try {
         const conn = await mongoose.connect(process.env.MONGODB_URI, { authSource: "admin" });
