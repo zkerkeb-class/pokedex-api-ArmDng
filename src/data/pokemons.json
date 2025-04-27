@@ -8,8 +8,8 @@
       "french": "Bulbizarre"
     },
     "type": [
-      "Grass",
-      "Poison"
+      "http://localhost:3000/assets/types/Grass.png",
+      "http://localhost:3000/assets/types/Poison.png"
     ],
     "base": {
       "HP": 45,
@@ -30,8 +30,8 @@
       "french": "Herbizarre"
     },
     "type": [
-      "Grass",
-      "Poison"
+      "http://localhost:3000/assets/types/Grass.png",
+      "http://localhost:3000/assets/types/Poison.png"
     ],
     "base": {
       "HP": 60,
@@ -52,8 +52,8 @@
       "french": "Florizarre"
     },
     "type": [
-      "Grass",
-      "Poison"
+      "http://localhost:3000/assets/types/Grass.png",
+      "http://localhost:3000/assets/types/Poison.png"
     ],
     "base": {
       "HP": 80,
@@ -74,7 +74,7 @@
       "french": "Salamèche"
     },
     "type": [
-      "Fire"
+      "http://localhost:3000/assets/types/Fire.png"
     ],
     "base": {
       "HP": 39,
@@ -95,7 +95,7 @@
       "french": "Reptincel"
     },
     "type": [
-      "Fire"
+      "http://localhost:3000/assets/types/Fire.png"
     ],
     "base": {
       "HP": 58,
@@ -116,8 +116,8 @@
       "french": "Dracaufeu"
     },
     "type": [
-      "Fire",
-      "Flying"
+      "http://localhost:3000/assets/types/Fire.png",
+      "http://localhost:3000/assets/types/Flying.png"
     ],
     "base": {
       "HP": 78,
@@ -138,7 +138,7 @@
       "french": "Carapuce"
     },
     "type": [
-      "Water"
+      "http://localhost:3000/assets/types/Water.png"
     ],
     "base": {
       "HP": 44,
@@ -159,7 +159,7 @@
       "french": "Carabaffe"
     },
     "type": [
-      "Water"
+      "http://localhost:3000/assets/types/Water.png"
     ],
     "base": {
       "HP": 59,
@@ -180,7 +180,7 @@
       "french": "Tortank"
     },
     "type": [
-      "Water"
+      "http://localhost:3000/assets/types/Water.png"
     ],
     "base": {
       "HP": 79,
@@ -201,7 +201,7 @@
       "french": "Chenipan"
     },
     "type": [
-      "Bug"
+      "http://localhost:3000/assets/types/Bug.png"
     ],
     "base": {
       "HP": 45,
@@ -222,7 +222,7 @@
       "french": "Chrysacier"
     },
     "type": [
-      "Bug"
+      "http://localhost:3000/assets/types/Bug.png"
     ],
     "base": {
       "HP": 50,
@@ -243,8 +243,8 @@
       "french": "Papilusion"
     },
     "type": [
-      "Bug",
-      "Flying"
+      "http://localhost:3000/assets/types/Bug.png",
+      "http://localhost:3000/assets/types/Flying.png"
     ],
     "base": {
       "HP": 60,
@@ -265,8 +265,8 @@
       "french": "Aspicot"
     },
     "type": [
-      "Bug",
-      "Poison"
+      "http://localhost:3000/assets/types/Bug.png",
+      "http://localhost:3000/assets/types/Poison.png"
     ],
     "base": {
       "HP": 40,
@@ -287,8 +287,8 @@
       "french": "Coconfort"
     },
     "type": [
-      "Bug",
-      "Poison"
+      "http://localhost:3000/assets/types/Bug.png",
+      "http://localhost:3000/assets/types/Poison.png"
     ],
     "base": {
       "HP": 45,
@@ -309,8 +309,8 @@
       "french": "Dardargnan"
     },
     "type": [
-      "Bug",
-      "Poison"
+      "http://localhost:3000/assets/types/Bug.png",
+      "http://localhost:3000/assets/types/Poison.png"
     ],
     "base": {
       "HP": 65,
@@ -331,8 +331,8 @@
       "french": "Roucool"
     },
     "type": [
-      "Normal",
-      "Flying"
+      "http://localhost:3000/assets/types/Normal.png",
+      "http://localhost:3000/assets/types/Flying.png"
     ],
     "base": {
       "HP": 40,
@@ -353,8 +353,8 @@
       "french": "Roucoups"
     },
     "type": [
-      "Normal",
-      "Flying"
+      "http://localhost:3000/assets/types/Normal.png",
+      "http://localhost:3000/assets/types/Flying.png"
     ],
     "base": {
       "HP": 63,
@@ -375,8 +375,8 @@
       "french": "Roucarnage"
     },
     "type": [
-      "Normal",
-      "Flying"
+      "http://localhost:3000/assets/types/Normal.png",
+      "http://localhost:3000/assets/types/Flying.png"
     ],
     "base": {
       "HP": 83,
@@ -397,7 +397,7 @@
       "french": "Rattata"
     },
     "type": [
-      "Normal"
+      "http://localhost:3000/assets/types/Normal.png"
     ],
     "base": {
       "HP": 30,
@@ -418,7 +418,7 @@
       "french": "Rattatac"
     },
     "type": [
-      "Normal"
+      "http://localhost:3000/assets/types/Normal.png"
     ],
     "base": {
       "HP": 55,
@@ -439,8 +439,8 @@
       "french": "Piafabec"
     },
     "type": [
-      "Normal",
-      "Flying"
+      "http://localhost:3000/assets/types/Normal.png",
+      "http://localhost:3000/assets/types/Flying.png"
     ],
     "base": {
       "HP": 40,
@@ -461,8 +461,8 @@
       "french": "Rapasdepic"
     },
     "type": [
-      "Normal",
-      "Flying"
+      "http://localhost:3000/assets/types/Normal.png",
+      "http://localhost:3000/assets/types/Flying.png"
     ],
     "base": {
       "HP": 65,
@@ -483,7 +483,7 @@
       "french": "Abo"
     },
     "type": [
-      "Poison"
+      "http://localhost:3000/assets/types/Poison.png"
     ],
     "base": {
       "HP": 35,
@@ -504,7 +504,7 @@
       "french": "Arbok"
     },
     "type": [
-      "Poison"
+      "http://localhost:3000/assets/types/Poison.png"
     ],
     "base": {
       "HP": 60,
@@ -525,7 +525,7 @@
       "french": "Pikachu"
     },
     "type": [
-      "Electric"
+      "http://localhost:3000/assets/types/Electric.png"
     ],
     "base": {
       "HP": 35,
@@ -546,7 +546,7 @@
       "french": "Raichu"
     },
     "type": [
-      "Electric"
+      "http://localhost:3000/assets/types/Electric.png"
     ],
     "base": {
       "HP": 60,
@@ -567,7 +567,7 @@
       "french": "Sabelette"
     },
     "type": [
-      "Ground"
+      "http://localhost:3000/assets/types/Ground.png"
     ],
     "base": {
       "HP": 50,
@@ -588,7 +588,7 @@
       "french": "Sablaireau"
     },
     "type": [
-      "Ground"
+      "http://localhost:3000/assets/types/Ground.png"
     ],
     "base": {
       "HP": 75,
@@ -609,7 +609,7 @@
       "french": "Nidoran♀"
     },
     "type": [
-      "Poison"
+      "http://localhost:3000/assets/types/Poison.png"
     ],
     "base": {
       "HP": 55,
@@ -630,7 +630,7 @@
       "french": "Nidorina"
     },
     "type": [
-      "Poison"
+      "http://localhost:3000/assets/types/Poison.png"
     ],
     "base": {
       "HP": 70,
@@ -651,8 +651,8 @@
       "french": "Nidoqueen"
     },
     "type": [
-      "Poison",
-      "Ground"
+      "http://localhost:3000/assets/types/Poison.png",
+      "http://localhost:3000/assets/types/Ground.png"
     ],
     "base": {
       "HP": 90,
@@ -673,7 +673,7 @@
       "french": "Nidoran♂"
     },
     "type": [
-      "Poison"
+      "http://localhost:3000/assets/types/Poison.png"
     ],
     "base": {
       "HP": 46,
@@ -694,7 +694,7 @@
       "french": "Nidorino"
     },
     "type": [
-      "Poison"
+      "http://localhost:3000/assets/types/Poison.png"
     ],
     "base": {
       "HP": 61,
@@ -715,8 +715,8 @@
       "french": "Nidoking"
     },
     "type": [
-      "Poison",
-      "Ground"
+      "http://localhost:3000/assets/types/Poison.png",
+      "http://localhost:3000/assets/types/Ground.png"
     ],
     "base": {
       "HP": 81,
@@ -737,7 +737,7 @@
       "french": "Mélofée"
     },
     "type": [
-      "Fairy"
+      "http://localhost:3000/assets/types/Fairy.png"
     ],
     "base": {
       "HP": 70,
@@ -758,7 +758,7 @@
       "french": "Mélodelfe"
     },
     "type": [
-      "Fairy"
+      "http://localhost:3000/assets/types/Fairy.png"
     ],
     "base": {
       "HP": 95,
@@ -779,7 +779,7 @@
       "french": "Goupix"
     },
     "type": [
-      "Fire"
+      "http://localhost:3000/assets/types/Fire.png"
     ],
     "base": {
       "HP": 38,
@@ -800,7 +800,7 @@
       "french": "Feunard"
     },
     "type": [
-      "Fire"
+      "http://localhost:3000/assets/types/Fire.png"
     ],
     "base": {
       "HP": 73,
@@ -821,8 +821,8 @@
       "french": "Rondoudou"
     },
     "type": [
-      "Normal",
-      "Fairy"
+      "http://localhost:3000/assets/types/Normal.png",
+      "http://localhost:3000/assets/types/Fairy.png"
     ],
     "base": {
       "HP": 115,
@@ -843,8 +843,8 @@
       "french": "Grodoudou"
     },
     "type": [
-      "Normal",
-      "Fairy"
+      "http://localhost:3000/assets/types/Normal.png",
+      "http://localhost:3000/assets/types/Fairy.png"
     ],
     "base": {
       "HP": 140,
@@ -865,8 +865,8 @@
       "french": "Nosferapti"
     },
     "type": [
-      "Poison",
-      "Flying"
+      "http://localhost:3000/assets/types/Poison.png",
+      "http://localhost:3000/assets/types/Flying.png"
     ],
     "base": {
       "HP": 40,
@@ -887,8 +887,8 @@
       "french": "Nosferalto"
     },
     "type": [
-      "Poison",
-      "Flying"
+      "http://localhost:3000/assets/types/Poison.png",
+      "http://localhost:3000/assets/types/Flying.png"
     ],
     "base": {
       "HP": 75,
@@ -909,8 +909,8 @@
       "french": "Mystherbe"
     },
     "type": [
-      "Grass",
-      "Poison"
+      "http://localhost:3000/assets/types/Grass.png",
+      "http://localhost:3000/assets/types/Poison.png"
     ],
     "base": {
       "HP": 45,
@@ -931,8 +931,8 @@
       "french": "Ortide"
     },
     "type": [
-      "Grass",
-      "Poison"
+      "http://localhost:3000/assets/types/Grass.png",
+      "http://localhost:3000/assets/types/Poison.png"
     ],
     "base": {
       "HP": 60,
@@ -953,8 +953,8 @@
       "french": "Rafflesia"
     },
     "type": [
-      "Grass",
-      "Poison"
+      "http://localhost:3000/assets/types/Grass.png",
+      "http://localhost:3000/assets/types/Poison.png"
     ],
     "base": {
       "HP": 75,
@@ -975,8 +975,8 @@
       "french": "Paras"
     },
     "type": [
-      "Bug",
-      "Grass"
+      "http://localhost:3000/assets/types/Bug.png",
+      "http://localhost:3000/assets/types/Grass.png"
     ],
     "base": {
       "HP": 35,
@@ -997,8 +997,8 @@
       "french": "Parasect"
     },
     "type": [
-      "Bug",
-      "Grass"
+      "http://localhost:3000/assets/types/Bug.png",
+      "http://localhost:3000/assets/types/Grass.png"
     ],
     "base": {
       "HP": 60,
@@ -1019,8 +1019,8 @@
       "french": "Mimitoss"
     },
     "type": [
-      "Bug",
-      "Poison"
+      "http://localhost:3000/assets/types/Bug.png",
+      "http://localhost:3000/assets/types/Poison.png"
     ],
     "base": {
       "HP": 60,
@@ -1041,8 +1041,8 @@
       "french": "Aéromite"
     },
     "type": [
-      "Bug",
-      "Poison"
+      "http://localhost:3000/assets/types/Bug.png",
+      "http://localhost:3000/assets/types/Poison.png"
     ],
     "base": {
       "HP": 70,
@@ -1063,7 +1063,7 @@
       "french": "Taupiqueur"
     },
     "type": [
-      "Ground"
+      "http://localhost:3000/assets/types/Ground.png"
     ],
     "base": {
       "HP": 10,
@@ -1084,7 +1084,7 @@
       "french": "Triopikeur"
     },
     "type": [
-      "Ground"
+      "http://localhost:3000/assets/types/Ground.png"
     ],
     "base": {
       "HP": 35,
@@ -1105,7 +1105,7 @@
       "french": "Miaouss"
     },
     "type": [
-      "Normal"
+      "http://localhost:3000/assets/types/Normal.png"
     ],
     "base": {
       "HP": 40,
@@ -1126,7 +1126,7 @@
       "french": "Persian"
     },
     "type": [
-      "Normal"
+      "http://localhost:3000/assets/types/Normal.png"
     ],
     "base": {
       "HP": 65,
@@ -1147,7 +1147,7 @@
       "french": "Psykokwak"
     },
     "type": [
-      "Water"
+      "http://localhost:3000/assets/types/Water.png"
     ],
     "base": {
       "HP": 50,
@@ -1168,7 +1168,7 @@
       "french": "Akwakwak"
     },
     "type": [
-      "Water"
+      "http://localhost:3000/assets/types/Water.png"
     ],
     "base": {
       "HP": 80,
@@ -1189,7 +1189,7 @@
       "french": "Férosinge"
     },
     "type": [
-      "Fighting"
+      "http://localhost:3000/assets/types/fighting.png"
     ],
     "base": {
       "HP": 40,
@@ -1210,7 +1210,7 @@
       "french": "Colossinge"
     },
     "type": [
-      "Fighting"
+      "http://localhost:3000/assets/types/fighting.png"
     ],
     "base": {
       "HP": 65,
@@ -1231,7 +1231,7 @@
       "french": "Caninos"
     },
     "type": [
-      "Fire"
+      "http://localhost:3000/assets/types/Fire.png"
     ],
     "base": {
       "HP": 55,
@@ -1252,7 +1252,7 @@
       "french": "Arcanin"
     },
     "type": [
-      "Fire"
+      "http://localhost:3000/assets/types/Fire.png"
     ],
     "base": {
       "HP": 90,
@@ -1273,7 +1273,7 @@
       "french": "Ptitard"
     },
     "type": [
-      "Water"
+      "http://localhost:3000/assets/types/Water.png"
     ],
     "base": {
       "HP": 40,
@@ -1294,7 +1294,7 @@
       "french": "Têtarte"
     },
     "type": [
-      "Water"
+      "http://localhost:3000/assets/types/Water.png"
     ],
     "base": {
       "HP": 65,
@@ -1315,8 +1315,8 @@
       "french": "Tartard"
     },
     "type": [
-      "Water",
-      "Fighting"
+      "http://localhost:3000/assets/types/Water.png",
+      "http://localhost:3000/assets/types/fighting.png"
     ],
     "base": {
       "HP": 90,
@@ -1337,7 +1337,7 @@
       "french": "Abra"
     },
     "type": [
-      "Psychic"
+      "http://localhost:3000/assets/types/Psychic.png"
     ],
     "base": {
       "HP": 25,
@@ -1358,7 +1358,7 @@
       "french": "Kadabra"
     },
     "type": [
-      "Psychic"
+      "http://localhost:3000/assets/types/Psychic.png"
     ],
     "base": {
       "HP": 40,
@@ -1379,7 +1379,7 @@
       "french": "Alakazam"
     },
     "type": [
-      "Psychic"
+      "http://localhost:3000/assets/types/Psychic.png"
     ],
     "base": {
       "HP": 55,
@@ -1400,7 +1400,7 @@
       "french": "Machoc"
     },
     "type": [
-      "Fighting"
+      "http://localhost:3000/assets/types/fighting.png"
     ],
     "base": {
       "HP": 70,
@@ -1421,7 +1421,7 @@
       "french": "Machopeur"
     },
     "type": [
-      "Fighting"
+      "http://localhost:3000/assets/types/fighting.png"
     ],
     "base": {
       "HP": 80,
@@ -1442,7 +1442,7 @@
       "french": "Mackogneur"
     },
     "type": [
-      "Fighting"
+      "http://localhost:3000/assets/types/fighting.png"
     ],
     "base": {
       "HP": 90,
@@ -1463,8 +1463,8 @@
       "french": "Chétiflor"
     },
     "type": [
-      "Grass",
-      "Poison"
+      "http://localhost:3000/assets/types/Grass.png",
+      "http://localhost:3000/assets/types/Poison.png"
     ],
     "base": {
       "HP": 50,
@@ -1485,8 +1485,8 @@
       "french": "Boustiflor"
     },
     "type": [
-      "Grass",
-      "Poison"
+      "http://localhost:3000/assets/types/Grass.png",
+      "http://localhost:3000/assets/types/Poison.png"
     ],
     "base": {
       "HP": 65,
@@ -1507,8 +1507,8 @@
       "french": "Empiflor"
     },
     "type": [
-      "Grass",
-      "Poison"
+      "http://localhost:3000/assets/types/Grass.png",
+      "http://localhost:3000/assets/types/Poison.png"
     ],
     "base": {
       "HP": 80,
@@ -1529,8 +1529,8 @@
       "french": "Tentacool"
     },
     "type": [
-      "Water",
-      "Poison"
+      "http://localhost:3000/assets/types/Water.png",
+      "http://localhost:3000/assets/types/Poison.png"
     ],
     "base": {
       "HP": 40,
@@ -1551,8 +1551,8 @@
       "french": "Tentacruel"
     },
     "type": [
-      "Water",
-      "Poison"
+      "http://localhost:3000/assets/types/Water.png",
+      "http://localhost:3000/assets/types/Poison.png"
     ],
     "base": {
       "HP": 80,
@@ -1573,8 +1573,8 @@
       "french": "Racaillou"
     },
     "type": [
-      "Rock",
-      "Ground"
+      "http://localhost:3000/assets/types/rock.png",
+      "http://localhost:3000/assets/types/Ground.png"
     ],
     "base": {
       "HP": 40,
@@ -1595,8 +1595,8 @@
       "french": "Gravalanch"
     },
     "type": [
-      "Rock",
-      "Ground"
+      "http://localhost:3000/assets/types/rock.png",
+      "http://localhost:3000/assets/types/Ground.png"
     ],
     "base": {
       "HP": 55,
@@ -1617,8 +1617,8 @@
       "french": "Grolem"
     },
     "type": [
-      "Rock",
-      "Ground"
+      "http://localhost:3000/assets/types/rock.png",
+      "http://localhost:3000/assets/types/Ground.png"
     ],
     "base": {
       "HP": 80,
@@ -1639,7 +1639,7 @@
       "french": "Ponyta"
     },
     "type": [
-      "Fire"
+      "http://localhost:3000/assets/types/Fire.png"
     ],
     "base": {
       "HP": 50,
@@ -1660,7 +1660,7 @@
       "french": "Galopa"
     },
     "type": [
-      "Fire"
+      "http://localhost:3000/assets/types/Fire.png"
     ],
     "base": {
       "HP": 65,
@@ -1681,8 +1681,8 @@
       "french": "Ramoloss"
     },
     "type": [
-      "Water",
-      "Psychic"
+      "http://localhost:3000/assets/types/Water.png",
+      "http://localhost:3000/assets/types/Psychic.png"
     ],
     "base": {
       "HP": 90,
@@ -1703,8 +1703,8 @@
       "french": "Flagadoss"
     },
     "type": [
-      "Water",
-      "Psychic"
+      "http://localhost:3000/assets/types/Water.png",
+      "http://localhost:3000/assets/types/Psychic.png"
     ],
     "base": {
       "HP": 95,
@@ -1725,8 +1725,8 @@
       "french": "Magnéti"
     },
     "type": [
-      "Electric",
-      "Steel"
+      "http://localhost:3000/assets/types/Electric.png",
+      "http://localhost:3000/assets/types/Steel.png"
     ],
     "base": {
       "HP": 25,
@@ -1747,8 +1747,8 @@
       "french": "Magnéton"
     },
     "type": [
-      "Electric",
-      "Steel"
+      "http://localhost:3000/assets/types/Electric.png",
+      "http://localhost:3000/assets/types/Steel.png"
     ],
     "base": {
       "HP": 50,
@@ -1769,8 +1769,8 @@
       "french": "Canarticho"
     },
     "type": [
-      "Normal",
-      "Flying"
+      "http://localhost:3000/assets/types/Normal.png",
+      "http://localhost:3000/assets/types/Flying.png"
     ],
     "base": {
       "HP": 52,
@@ -1791,8 +1791,8 @@
       "french": "Doduo"
     },
     "type": [
-      "Normal",
-      "Flying"
+      "http://localhost:3000/assets/types/Normal.png",
+      "http://localhost:3000/assets/types/Flying.png"
     ],
     "base": {
       "HP": 35,
@@ -1813,8 +1813,8 @@
       "french": "Dodrio"
     },
     "type": [
-      "Normal",
-      "Flying"
+      "http://localhost:3000/assets/types/Normal.png",
+      "http://localhost:3000/assets/types/Flying.png"
     ],
     "base": {
       "HP": 60,
@@ -1835,7 +1835,7 @@
       "french": "Otaria"
     },
     "type": [
-      "Water"
+      "http://localhost:3000/assets/types/Water.png"
     ],
     "base": {
       "HP": 65,
@@ -1856,8 +1856,8 @@
       "french": "Lamantine"
     },
     "type": [
-      "Water",
-      "Ice"
+      "http://localhost:3000/assets/types/Water.png",
+      "http://localhost:3000/assets/types/Ice.png"
     ],
     "base": {
       "HP": 90,
@@ -1878,7 +1878,7 @@
       "french": "Tadmorv"
     },
     "type": [
-      "Poison"
+      "http://localhost:3000/assets/types/Poison.png"
     ],
     "base": {
       "HP": 80,
@@ -1899,7 +1899,7 @@
       "french": "Grotadmorv"
     },
     "type": [
-      "Poison"
+      "http://localhost:3000/assets/types/Poison.png"
     ],
     "base": {
       "HP": 105,
@@ -1920,7 +1920,7 @@
       "french": "Kokiyas"
     },
     "type": [
-      "Water"
+      "http://localhost:3000/assets/types/Water.png"
     ],
     "base": {
       "HP": 30,
@@ -1941,8 +1941,8 @@
       "french": "Crustabri"
     },
     "type": [
-      "Water",
-      "Ice"
+      "http://localhost:3000/assets/types/Water.png",
+      "http://localhost:3000/assets/types/Ice.png"
     ],
     "base": {
       "HP": 50,
@@ -1963,8 +1963,8 @@
       "french": "Fantominus"
     },
     "type": [
-      "Ghost",
-      "Poison"
+      "http://localhost:3000/assets/types/Ghost.png",
+      "http://localhost:3000/assets/types/Poison.png"
     ],
     "base": {
       "HP": 30,
@@ -1985,8 +1985,8 @@
       "french": "Spectrum"
     },
     "type": [
-      "Ghost",
-      "Poison"
+      "http://localhost:3000/assets/types/Ghost.png",
+      "http://localhost:3000/assets/types/Poison.png"
     ],
     "base": {
       "HP": 45,
@@ -2007,8 +2007,8 @@
       "french": "Ectoplasma"
     },
     "type": [
-      "Ghost",
-      "Poison"
+      "http://localhost:3000/assets/types/Ghost.png",
+      "http://localhost:3000/assets/types/Poison.png"
     ],
     "base": {
       "HP": 60,
@@ -2029,8 +2029,8 @@
       "french": "Onix"
     },
     "type": [
-      "Rock",
-      "Ground"
+      "http://localhost:3000/assets/types/rock.png",
+      "http://localhost:3000/assets/types/Ground.png"
     ],
     "base": {
       "HP": 35,
@@ -2051,7 +2051,7 @@
       "french": "Soporifik"
     },
     "type": [
-      "Psychic"
+      "http://localhost:3000/assets/types/Psychic.png"
     ],
     "base": {
       "HP": 60,
@@ -2072,7 +2072,7 @@
       "french": "Hypnomade"
     },
     "type": [
-      "Psychic"
+      "http://localhost:3000/assets/types/Psychic.png"
     ],
     "base": {
       "HP": 85,
@@ -2093,7 +2093,7 @@
       "french": "Krabby"
     },
     "type": [
-      "Water"
+      "http://localhost:3000/assets/types/Water.png"
     ],
     "base": {
       "HP": 30,
@@ -2114,7 +2114,7 @@
       "french": "Krabboss"
     },
     "type": [
-      "Water"
+      "http://localhost:3000/assets/types/Water.png"
     ],
     "base": {
       "HP": 55,
@@ -2135,7 +2135,7 @@
       "french": "Voltorbe"
     },
     "type": [
-      "Electric"
+      "http://localhost:3000/assets/types/Electric.png"
     ],
     "base": {
       "HP": 40,
@@ -2156,7 +2156,7 @@
       "french": "Électrode"
     },
     "type": [
-      "Electric"
+      "http://localhost:3000/assets/types/Electric.png"
     ],
     "base": {
       "HP": 60,
@@ -2177,8 +2177,8 @@
       "french": "Noeunoeuf"
     },
     "type": [
-      "Grass",
-      "Psychic"
+      "http://localhost:3000/assets/types/Grass.png",
+      "http://localhost:3000/assets/types/Psychic.png"
     ],
     "base": {
       "HP": 60,
@@ -2199,8 +2199,8 @@
       "french": "Noadkoko"
     },
     "type": [
-      "Grass",
-      "Psychic"
+      "http://localhost:3000/assets/types/Grass.png",
+      "http://localhost:3000/assets/types/Psychic.png"
     ],
     "base": {
       "HP": 95,
@@ -2221,7 +2221,7 @@
       "french": "Osselait"
     },
     "type": [
-      "Ground"
+      "http://localhost:3000/assets/types/Ground.png"
     ],
     "base": {
       "HP": 50,
@@ -2242,7 +2242,7 @@
       "french": "Ossatueur"
     },
     "type": [
-      "Ground"
+      "http://localhost:3000/assets/types/Ground.png"
     ],
     "base": {
       "HP": 60,
@@ -2263,7 +2263,7 @@
       "french": "Kicklee"
     },
     "type": [
-      "Fighting"
+      "http://localhost:3000/assets/types/fighting.png"
     ],
     "base": {
       "HP": 50,
@@ -2284,7 +2284,7 @@
       "french": "Tygnon"
     },
     "type": [
-      "Fighting"
+      "http://localhost:3000/assets/types/fighting.png"
     ],
     "base": {
       "HP": 50,
@@ -2305,7 +2305,7 @@
       "french": "Excelangue"
     },
     "type": [
-      "Normal"
+      "http://localhost:3000/assets/types/Normal.png"
     ],
     "base": {
       "HP": 90,
@@ -2326,7 +2326,7 @@
       "french": "Smogo"
     },
     "type": [
-      "Poison"
+      "http://localhost:3000/assets/types/Poison.png"
     ],
     "base": {
       "HP": 40,
@@ -2347,7 +2347,7 @@
       "french": "Smogogo"
     },
     "type": [
-      "Poison"
+      "http://localhost:3000/assets/types/Poison.png"
     ],
     "base": {
       "HP": 65,
@@ -2368,8 +2368,8 @@
       "french": "Rhinocorne"
     },
     "type": [
-      "Ground",
-      "Rock"
+      "http://localhost:3000/assets/types/Ground.png",
+      "http://localhost:3000/assets/types/rock.png"
     ],
     "base": {
       "HP": 80,
@@ -2390,8 +2390,8 @@
       "french": "Rhinoféros"
     },
     "type": [
-      "Ground",
-      "Rock"
+      "http://localhost:3000/assets/types/Ground.png",
+      "http://localhost:3000/assets/types/rock.png"
     ],
     "base": {
       "HP": 105,
@@ -2412,7 +2412,7 @@
       "french": "Leveinard"
     },
     "type": [
-      "Normal"
+      "http://localhost:3000/assets/types/Normal.png"
     ],
     "base": {
       "HP": 250,
@@ -2433,7 +2433,7 @@
       "french": "Saquedeneu"
     },
     "type": [
-      "Grass"
+      "http://localhost:3000/assets/types/Grass.png"
     ],
     "base": {
       "HP": 65,
@@ -2454,7 +2454,7 @@
       "french": "Kangourex"
     },
     "type": [
-      "Normal"
+      "http://localhost:3000/assets/types/Normal.png"
     ],
     "base": {
       "HP": 105,
@@ -2475,7 +2475,7 @@
       "french": "Hypotrempe"
     },
     "type": [
-      "Water"
+      "http://localhost:3000/assets/types/Water.png"
     ],
     "base": {
       "HP": 30,
@@ -2496,7 +2496,7 @@
       "french": "Hypocéan"
     },
     "type": [
-      "Water"
+      "http://localhost:3000/assets/types/Water.png"
     ],
     "base": {
       "HP": 55,
@@ -2517,7 +2517,7 @@
       "french": "Poissirène"
     },
     "type": [
-      "Water"
+      "http://localhost:3000/assets/types/Water.png"
     ],
     "base": {
       "HP": 45,
@@ -2538,7 +2538,7 @@
       "french": "Poissoroy"
     },
     "type": [
-      "Water"
+      "http://localhost:3000/assets/types/Water.png"
     ],
     "base": {
       "HP": 80,
@@ -2559,7 +2559,7 @@
       "french": "Stari"
     },
     "type": [
-      "Water"
+      "http://localhost:3000/assets/types/Water.png"
     ],
     "base": {
       "HP": 30,
@@ -2580,8 +2580,8 @@
       "french": "Staross"
     },
     "type": [
-      "Water",
-      "Psychic"
+      "http://localhost:3000/assets/types/Water.png",
+      "http://localhost:3000/assets/types/Psychic.png"
     ],
     "base": {
       "HP": 60,
@@ -2602,8 +2602,8 @@
       "french": "M. Mime"
     },
     "type": [
-      "Psychic",
-      "Fairy"
+      "http://localhost:3000/assets/types/Psychic.png",
+      "http://localhost:3000/assets/types/Fairy.png"
     ],
     "base": {
       "HP": 40,
@@ -2624,8 +2624,8 @@
       "french": "Insécateur"
     },
     "type": [
-      "Bug",
-      "Flying"
+      "http://localhost:3000/assets/types/Bug.png",
+      "http://localhost:3000/assets/types/Flying.png"
     ],
     "base": {
       "HP": 70,
@@ -2646,8 +2646,8 @@
       "french": "Lippoutou"
     },
     "type": [
-      "Ice",
-      "Psychic"
+      "http://localhost:3000/assets/types/Ice.png",
+      "http://localhost:3000/assets/types/Psychic.png"
     ],
     "base": {
       "HP": 65,
@@ -2668,7 +2668,7 @@
       "french": "Élektek"
     },
     "type": [
-      "Electric"
+      "http://localhost:3000/assets/types/Electric.png"
     ],
     "base": {
       "HP": 65,
@@ -2689,7 +2689,7 @@
       "french": "Magmar"
     },
     "type": [
-      "Fire"
+      "http://localhost:3000/assets/types/Fire.png"
     ],
     "base": {
       "HP": 65,
@@ -2710,7 +2710,7 @@
       "french": "Scarabrute"
     },
     "type": [
-      "Bug"
+      "http://localhost:3000/assets/types/Bug.png"
     ],
     "base": {
       "HP": 65,
@@ -2731,7 +2731,7 @@
       "french": "Tauros"
     },
     "type": [
-      "Normal"
+      "http://localhost:3000/assets/types/Normal.png"
     ],
     "base": {
       "HP": 75,
@@ -2752,7 +2752,7 @@
       "french": "Magicarpe"
     },
     "type": [
-      "Water"
+      "http://localhost:3000/assets/types/Water.png"
     ],
     "base": {
       "HP": 20,
@@ -2773,8 +2773,8 @@
       "french": "Léviator"
     },
     "type": [
-      "Water",
-      "Flying"
+      "http://localhost:3000/assets/types/Water.png",
+      "http://localhost:3000/assets/types/Flying.png"
     ],
     "base": {
       "HP": 95,
@@ -2795,8 +2795,8 @@
       "french": "Lokhlass"
     },
     "type": [
-      "Water",
-      "Ice"
+      "http://localhost:3000/assets/types/Water.png",
+      "http://localhost:3000/assets/types/Ice.png"
     ],
     "base": {
       "HP": 130,
@@ -2817,7 +2817,7 @@
       "french": "Métamorph"
     },
     "type": [
-      "Normal"
+      "http://localhost:3000/assets/types/Normal.png"
     ],
     "base": {
       "HP": 48,
@@ -2838,7 +2838,7 @@
       "french": "Évoli"
     },
     "type": [
-      "Normal"
+      "http://localhost:3000/assets/types/Normal.png"
     ],
     "base": {
       "HP": 55,
@@ -2859,7 +2859,7 @@
       "french": "Aquali"
     },
     "type": [
-      "Water"
+      "http://localhost:3000/assets/types/Water.png"
     ],
     "base": {
       "HP": 130,
@@ -2880,7 +2880,7 @@
       "french": "Voltali"
     },
     "type": [
-      "Electric"
+      "http://localhost:3000/assets/types/Electric.png"
     ],
     "base": {
       "HP": 65,
@@ -2901,7 +2901,7 @@
       "french": "Pyroli"
     },
     "type": [
-      "Fire"
+      "http://localhost:3000/assets/types/Fire.png"
     ],
     "base": {
       "HP": 65,
@@ -2922,7 +2922,7 @@
       "french": "Porygon"
     },
     "type": [
-      "Normal"
+      "http://localhost:3000/assets/types/Normal.png"
     ],
     "base": {
       "HP": 65,
@@ -2943,8 +2943,8 @@
       "french": "Amonita"
     },
     "type": [
-      "Rock",
-      "Water"
+      "http://localhost:3000/assets/types/Rock.png",
+      "http://localhost:3000/assets/types/Water.png"
     ],
     "base": {
       "HP": 35,
@@ -2965,8 +2965,8 @@
       "french": "Amonistar"
     },
     "type": [
-      "Rock",
-      "Water"
+      "http://localhost:3000/assets/types/Rock.png",
+      "http://localhost:3000/assets/types/Water.png"
     ],
     "base": {
       "HP": 70,
@@ -2987,8 +2987,8 @@
       "french": "Kabuto"
     },
     "type": [
-      "Rock",
-      "Water"
+      "http://localhost:3000/assets/types/Rock.png",
+      "http://localhost:3000/assets/types/Water.png"
     ],
     "base": {
       "HP": 30,
@@ -3009,8 +3009,8 @@
       "french": "Kabutops"
     },
     "type": [
-      "Rock",
-      "Water"
+      "http://localhost:3000/assets/types/Rock.png",
+      "http://localhost:3000/assets/types/Water.png"
     ],
     "base": {
       "HP": 60,
@@ -3031,8 +3031,8 @@
       "french": "Ptéra"
     },
     "type": [
-      "Rock",
-      "Flying"
+      "http://localhost:3000/assets/types/Rock.png",
+      "http://localhost:3000/assets/types/Flying.png"
     ],
     "base": {
       "HP": 80,
@@ -3053,7 +3053,7 @@
       "french": "Ronflex"
     },
     "type": [
-      "Normal"
+      "http://localhost:3000/assets/types/Normal.png"
     ],
     "base": {
       "HP": 160,
@@ -3074,8 +3074,8 @@
       "french": "Artikodin"
     },
     "type": [
-      "Ice",
-      "Flying"
+      "http://localhost:3000/assets/types/Ice.png",
+      "http://localhost:3000/assets/types/Flying.png"
     ],
     "base": {
       "HP": 90,
@@ -3096,8 +3096,8 @@
       "french": "Électhor"
     },
     "type": [
-      "Electric",
-      "Flying"
+      "http://localhost:3000/assets/types/Electric.png",
+      "http://localhost:3000/assets/types/Flying.png"
     ],
     "base": {
       "HP": 90,
@@ -3118,8 +3118,8 @@
       "french": "Sulfura"
     },
     "type": [
-      "Fire",
-      "Flying"
+      "http://localhost:3000/assets/types/Fire.png",
+      "http://localhost:3000/assets/types/Flying.png"
     ],
     "base": {
       "HP": 90,
@@ -3140,7 +3140,7 @@
       "french": "Minidraco"
     },
     "type": [
-      "Dragon"
+      "http://localhost:3000/assets/types/Dragon.png"
     ],
     "base": {
       "HP": 41,
@@ -3161,7 +3161,7 @@
       "french": "Draco"
     },
     "type": [
-      "Dragon"
+      "http://localhost:3000/assets/types/Dragon.png"
     ],
     "base": {
       "HP": 61,
@@ -3182,8 +3182,8 @@
       "french": "Dracolosse"
     },
     "type": [
-      "Dragon",
-      "Flying"
+      "http://localhost:3000/assets/types/Dragon.png",
+      "http://localhost:3000/assets/types/Flying.png"
     ],
     "base": {
       "HP": 91,
@@ -3204,7 +3204,7 @@
       "french": "Mewtwo"
     },
     "type": [
-      "Psychic"
+      "http://localhost:3000/assets/types/Psychic.png"
     ],
     "base": {
       "HP": 106,
@@ -3225,7 +3225,7 @@
       "french": "Mew"
     },
     "type": [
-      "Psychic"
+      "http://localhost:3000/assets/types/Psychic.png"
     ],
     "base": {
       "HP": 100,

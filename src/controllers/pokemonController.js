@@ -65,17 +65,29 @@ export const getPokemonBySearch = async (req, res) => {
         const limit = parseInt(req.query.limit) || 10;
         const skip = (page - 1) * limit;
 
-        const regex = new RegExp(searchTerm, 'i');
+        let query = {};
 
-        let query = {
-            $or: [
+        if (searchTerm) {
+            const regex = new RegExp(searchTerm, 'i');
+            query.$or = [
                 { "name.french": regex },
                 { "name.english": regex }
-            ]
-        };
+            ];
+        }
 
+        // Rechercher le type dans l'URL
         if (typeTerm) {
-            query.type = { $in: [typeTerm] };
+            // Séparer les types si plusieurs sont fournis
+            const typeArray = typeTerm.split(',');
+            
+            // Créer un tableau de regex pour chaque type
+            const typeRegexes = typeArray.map(type => new RegExp(`/${type}\\.png$`, 'i'));
+            
+            if (typeRegexes.length > 1) {
+                query.type = { $all: typeRegexes.map(regex => ({ $elemMatch: { $regex: regex } })) };
+            } else {
+                query.type = { $elemMatch: { $regex: typeRegexes[0] } };
+            }
         }
 
         const total = await Pokemon.countDocuments(query);

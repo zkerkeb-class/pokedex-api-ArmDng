@@ -12,8 +12,8 @@ const pokemonsList = [
             "french": "Bulbizarre"
         },
         "type": [
-            "Grass",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Grass.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 45,
@@ -34,8 +34,8 @@ const pokemonsList = [
             "french": "Herbizarre"
         },
         "type": [
-            "Grass",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Grass.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 60,
@@ -56,8 +56,8 @@ const pokemonsList = [
             "french": "Florizarre"
         },
         "type": [
-            "Grass",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Grass.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 80,
@@ -78,7 +78,7 @@ const pokemonsList = [
             "french": "Salamèche"
         },
         "type": [
-            "Fire"
+            `${process.env.API_URL}/assets/types/Fire.png`
         ],
         "base": {
             "HP": 39,
@@ -99,7 +99,7 @@ const pokemonsList = [
             "french": "Reptincel"
         },
         "type": [
-            "Fire"
+            `${process.env.API_URL}/assets/types/Fire.png`
         ],
         "base": {
             "HP": 58,
@@ -120,8 +120,8 @@ const pokemonsList = [
             "french": "Dracaufeu"
         },
         "type": [
-            "Fire",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Fire.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`
         ],
         "base": {
             "HP": 78,
@@ -142,7 +142,7 @@ const pokemonsList = [
             "french": "Carapuce"
         },
         "type": [
-            "Water"
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 44,
@@ -163,7 +163,7 @@ const pokemonsList = [
             "french": "Carabaffe"
         },
         "type": [
-            "Water"
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 59,
@@ -184,7 +184,7 @@ const pokemonsList = [
             "french": "Tortank"
         },
         "type": [
-            "Water"
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 79,
@@ -205,7 +205,7 @@ const pokemonsList = [
             "french": "Chenipan"
         },
         "type": [
-            "Bug"
+            `${process.env.API_URL}/assets/types/Bug.png`
         ],
         "base": {
             "HP": 45,
@@ -226,7 +226,7 @@ const pokemonsList = [
             "french": "Chrysacier"
         },
         "type": [
-            "Bug"
+            `${process.env.API_URL}/assets/types/Bug.png`
         ],
         "base": {
             "HP": 50,
@@ -247,8 +247,8 @@ const pokemonsList = [
             "french": "Papilusion"
         },
         "type": [
-            "Bug",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Bug.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`
         ],
         "base": {
             "HP": 60,
@@ -269,8 +269,8 @@ const pokemonsList = [
             "french": "Aspicot"
         },
         "type": [
-            "Bug",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Bug.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 40,
@@ -291,8 +291,8 @@ const pokemonsList = [
             "french": "Coconfort"
         },
         "type": [
-            "Bug",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Bug.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 45,
@@ -313,8 +313,8 @@ const pokemonsList = [
             "french": "Dardargnan"
         },
         "type": [
-            "Bug",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Bug.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 65,
@@ -335,8 +335,8 @@ const pokemonsList = [
             "french": "Roucool"
         },
         "type": [
-            "Normal",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Normal.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`
         ],
         "base": {
             "HP": 40,
@@ -357,8 +357,8 @@ const pokemonsList = [
             "french": "Roucoups"
         },
         "type": [
-            "Normal",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Normal.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`
         ],
         "base": {
             "HP": 63,
@@ -379,8 +379,8 @@ const pokemonsList = [
             "french": "Roucarnage"
         },
         "type": [
-            "Normal",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Normal.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`
         ],
         "base": {
             "HP": 83,
@@ -401,7 +401,7 @@ const pokemonsList = [
             "french": "Rattata"
         },
         "type": [
-            "Normal"
+            `${process.env.API_URL}/assets/types/Normal.png`
         ],
         "base": {
             "HP": 30,
@@ -422,7 +422,7 @@ const pokemonsList = [
             "french": "Rattatac"
         },
         "type": [
-            "Normal"
+            `${process.env.API_URL}/assets/types/Normal.png`
         ],
         "base": {
             "HP": 55,
@@ -443,8 +443,8 @@ const pokemonsList = [
             "french": "Piafabec"
         },
         "type": [
-            "Normal",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Normal.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`
         ],
         "base": {
             "HP": 40,
@@ -465,8 +465,8 @@ const pokemonsList = [
             "french": "Rapasdepic"
         },
         "type": [
-            "Normal",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Normal.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`
         ],
         "base": {
             "HP": 65,
@@ -487,7 +487,7 @@ const pokemonsList = [
             "french": "Abo"
         },
         "type": [
-            "Poison"
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 35,
@@ -508,7 +508,7 @@ const pokemonsList = [
             "french": "Arbok"
         },
         "type": [
-            "Poison"
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 60,
@@ -529,7 +529,7 @@ const pokemonsList = [
             "french": "Pikachu"
         },
         "type": [
-            "Electric"
+            `${process.env.API_URL}/assets/types/Electric.png`
         ],
         "base": {
             "HP": 35,
@@ -550,7 +550,7 @@ const pokemonsList = [
             "french": "Raichu"
         },
         "type": [
-            "Electric"
+            `${process.env.API_URL}/assets/types/Electric.png`
         ],
         "base": {
             "HP": 60,
@@ -571,7 +571,7 @@ const pokemonsList = [
             "french": "Sabelette"
         },
         "type": [
-            "Ground"
+            `${process.env.API_URL}/assets/types/Ground.png`
         ],
         "base": {
             "HP": 50,
@@ -592,7 +592,7 @@ const pokemonsList = [
             "french": "Sablaireau"
         },
         "type": [
-            "Ground"
+            `${process.env.API_URL}/assets/types/Ground.png`
         ],
         "base": {
             "HP": 75,
@@ -613,7 +613,7 @@ const pokemonsList = [
             "french": "Nidoran♀"
         },
         "type": [
-            "Poison"
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 55,
@@ -634,7 +634,7 @@ const pokemonsList = [
             "french": "Nidorina"
         },
         "type": [
-            "Poison"
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 70,
@@ -655,8 +655,8 @@ const pokemonsList = [
             "french": "Nidoqueen"
         },
         "type": [
-            "Poison",
-            "Ground"
+            `${process.env.API_URL}/assets/types/Poison.png`,
+            `${process.env.API_URL}/assets/types/Ground.png`
         ],
         "base": {
             "HP": 90,
@@ -677,7 +677,7 @@ const pokemonsList = [
             "french": "Nidoran♂"
         },
         "type": [
-            "Poison"
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 46,
@@ -698,7 +698,7 @@ const pokemonsList = [
             "french": "Nidorino"
         },
         "type": [
-            "Poison"
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 61,
@@ -719,8 +719,8 @@ const pokemonsList = [
             "french": "Nidoking"
         },
         "type": [
-            "Poison",
-            "Ground"
+            `${process.env.API_URL}/assets/types/Poison.png`,
+            `${process.env.API_URL}/assets/types/Ground.png`
         ],
         "base": {
             "HP": 81,
@@ -741,7 +741,7 @@ const pokemonsList = [
             "french": "Mélofée"
         },
         "type": [
-            "Fairy"
+            `${process.env.API_URL}/assets/types/Fairy.png`
         ],
         "base": {
             "HP": 70,
@@ -762,7 +762,7 @@ const pokemonsList = [
             "french": "Mélodelfe"
         },
         "type": [
-            "Fairy"
+            `${process.env.API_URL}/assets/types/Fairy.png`
         ],
         "base": {
             "HP": 95,
@@ -783,7 +783,7 @@ const pokemonsList = [
             "french": "Goupix"
         },
         "type": [
-            "Fire"
+            `${process.env.API_URL}/assets/types/Fire.png`
         ],
         "base": {
             "HP": 38,
@@ -804,7 +804,7 @@ const pokemonsList = [
             "french": "Feunard"
         },
         "type": [
-            "Fire"
+            `${process.env.API_URL}/assets/types/Fire.png`
         ],
         "base": {
             "HP": 73,
@@ -825,8 +825,8 @@ const pokemonsList = [
             "french": "Rondoudou"
         },
         "type": [
-            "Normal",
-            "Fairy"
+            `${process.env.API_URL}/assets/types/Normal.png`,
+            `${process.env.API_URL}/assets/types/Fairy.png`
         ],
         "base": {
             "HP": 115,
@@ -847,8 +847,8 @@ const pokemonsList = [
             "french": "Grodoudou"
         },
         "type": [
-            "Normal",
-            "Fairy"
+            `${process.env.API_URL}/assets/types/Normal.png`,
+            `${process.env.API_URL}/assets/types/Fairy.png`
         ],
         "base": {
             "HP": 140,
@@ -869,8 +869,8 @@ const pokemonsList = [
             "french": "Nosferapti"
         },
         "type": [
-            "Poison",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Poison.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`
         ],
         "base": {
             "HP": 40,
@@ -891,8 +891,8 @@ const pokemonsList = [
             "french": "Nosferalto"
         },
         "type": [
-            "Poison",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Poison.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`
         ],
         "base": {
             "HP": 75,
@@ -913,8 +913,8 @@ const pokemonsList = [
             "french": "Mystherbe"
         },
         "type": [
-            "Grass",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Grass.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 45,
@@ -935,8 +935,8 @@ const pokemonsList = [
             "french": "Ortide"
         },
         "type": [
-            "Grass",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Grass.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 60,
@@ -957,8 +957,8 @@ const pokemonsList = [
             "french": "Rafflesia"
         },
         "type": [
-            "Grass",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Grass.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 75,
@@ -979,8 +979,8 @@ const pokemonsList = [
             "french": "Paras"
         },
         "type": [
-            "Bug",
-            "Grass"
+            `${process.env.API_URL}/assets/types/Bug.png`,
+            `${process.env.API_URL}/assets/types/Grass.png`
         ],
         "base": {
             "HP": 35,
@@ -1001,8 +1001,8 @@ const pokemonsList = [
             "french": "Parasect"
         },
         "type": [
-            "Bug",
-            "Grass"
+            `${process.env.API_URL}/assets/types/Bug.png`,
+            `${process.env.API_URL}/assets/types/Grass.png`
         ],
         "base": {
             "HP": 60,
@@ -1023,8 +1023,8 @@ const pokemonsList = [
             "french": "Mimitoss"
         },
         "type": [
-            "Bug",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Bug.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 60,
@@ -1045,8 +1045,8 @@ const pokemonsList = [
             "french": "Aéromite"
         },
         "type": [
-            "Bug",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Bug.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 70,
@@ -1067,7 +1067,7 @@ const pokemonsList = [
             "french": "Taupiqueur"
         },
         "type": [
-            "Ground"
+            `${process.env.API_URL}/assets/types/Ground.png`
         ],
         "base": {
             "HP": 10,
@@ -1088,7 +1088,7 @@ const pokemonsList = [
             "french": "Triopikeur"
         },
         "type": [
-            "Ground"
+            `${process.env.API_URL}/assets/types/Ground.png`
         ],
         "base": {
             "HP": 35,
@@ -1109,7 +1109,7 @@ const pokemonsList = [
             "french": "Miaouss"
         },
         "type": [
-            "Normal"
+            `${process.env.API_URL}/assets/types/Normal.png`
         ],
         "base": {
             "HP": 40,
@@ -1130,7 +1130,7 @@ const pokemonsList = [
             "french": "Persian"
         },
         "type": [
-            "Normal"
+            `${process.env.API_URL}/assets/types/Normal.png`
         ],
         "base": {
             "HP": 65,
@@ -1151,7 +1151,7 @@ const pokemonsList = [
             "french": "Psykokwak"
         },
         "type": [
-            "Water"
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 50,
@@ -1172,7 +1172,7 @@ const pokemonsList = [
             "french": "Akwakwak"
         },
         "type": [
-            "Water"
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 80,
@@ -1193,7 +1193,7 @@ const pokemonsList = [
             "french": "Férosinge"
         },
         "type": [
-            "Fighting"
+            `${process.env.API_URL}/assets/types/fighting.png`
         ],
         "base": {
             "HP": 40,
@@ -1214,7 +1214,7 @@ const pokemonsList = [
             "french": "Colossinge"
         },
         "type": [
-            "Fighting"
+            `${process.env.API_URL}/assets/types/fighting.png`
         ],
         "base": {
             "HP": 65,
@@ -1235,7 +1235,7 @@ const pokemonsList = [
             "french": "Caninos"
         },
         "type": [
-            "Fire"
+            `${process.env.API_URL}/assets/types/Fire.png`
         ],
         "base": {
             "HP": 55,
@@ -1256,7 +1256,7 @@ const pokemonsList = [
             "french": "Arcanin"
         },
         "type": [
-            "Fire"
+            `${process.env.API_URL}/assets/types/Fire.png`
         ],
         "base": {
             "HP": 90,
@@ -1277,7 +1277,7 @@ const pokemonsList = [
             "french": "Ptitard"
         },
         "type": [
-            "Water"
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 40,
@@ -1298,7 +1298,7 @@ const pokemonsList = [
             "french": "Têtarte"
         },
         "type": [
-            "Water"
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 65,
@@ -1319,8 +1319,8 @@ const pokemonsList = [
             "french": "Tartard"
         },
         "type": [
-            "Water",
-            "Fighting"
+            `${process.env.API_URL}/assets/types/Water.png`,
+            `${process.env.API_URL}/assets/types/fighting.png`
         ],
         "base": {
             "HP": 90,
@@ -1341,7 +1341,7 @@ const pokemonsList = [
             "french": "Abra"
         },
         "type": [
-            "Psychic"
+            `${process.env.API_URL}/assets/types/Psychic.png`
         ],
         "base": {
             "HP": 25,
@@ -1362,7 +1362,7 @@ const pokemonsList = [
             "french": "Kadabra"
         },
         "type": [
-            "Psychic"
+            `${process.env.API_URL}/assets/types/Psychic.png`
         ],
         "base": {
             "HP": 40,
@@ -1383,7 +1383,7 @@ const pokemonsList = [
             "french": "Alakazam"
         },
         "type": [
-            "Psychic"
+            `${process.env.API_URL}/assets/types/Psychic.png`
         ],
         "base": {
             "HP": 55,
@@ -1404,7 +1404,7 @@ const pokemonsList = [
             "french": "Machoc"
         },
         "type": [
-            "Fighting"
+            `${process.env.API_URL}/assets/types/fighting.png`
         ],
         "base": {
             "HP": 70,
@@ -1425,7 +1425,7 @@ const pokemonsList = [
             "french": "Machopeur"
         },
         "type": [
-            "Fighting"
+            `${process.env.API_URL}/assets/types/fighting.png`
         ],
         "base": {
             "HP": 80,
@@ -1446,7 +1446,7 @@ const pokemonsList = [
             "french": "Mackogneur"
         },
         "type": [
-            "Fighting"
+            `${process.env.API_URL}/assets/types/fighting.png`
         ],
         "base": {
             "HP": 90,
@@ -1467,8 +1467,8 @@ const pokemonsList = [
             "french": "Chétiflor"
         },
         "type": [
-            "Grass",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Grass.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 50,
@@ -1489,8 +1489,8 @@ const pokemonsList = [
             "french": "Boustiflor"
         },
         "type": [
-            "Grass",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Grass.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 65,
@@ -1511,8 +1511,8 @@ const pokemonsList = [
             "french": "Empiflor"
         },
         "type": [
-            "Grass",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Grass.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 80,
@@ -1533,8 +1533,8 @@ const pokemonsList = [
             "french": "Tentacool"
         },
         "type": [
-            "Water",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Water.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 40,
@@ -1555,8 +1555,8 @@ const pokemonsList = [
             "french": "Tentacruel"
         },
         "type": [
-            "Water",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Water.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 80,
@@ -1577,8 +1577,8 @@ const pokemonsList = [
             "french": "Racaillou"
         },
         "type": [
-            "Rock",
-            "Ground"
+            `${process.env.API_URL}/assets/types/rock.png`,
+            `${process.env.API_URL}/assets/types/Ground.png`
         ],
         "base": {
             "HP": 40,
@@ -1599,8 +1599,8 @@ const pokemonsList = [
             "french": "Gravalanch"
         },
         "type": [
-            "Rock",
-            "Ground"
+            `${process.env.API_URL}/assets/types/rock.png`,
+            `${process.env.API_URL}/assets/types/Ground.png`
         ],
         "base": {
             "HP": 55,
@@ -1621,8 +1621,8 @@ const pokemonsList = [
             "french": "Grolem"
         },
         "type": [
-            "Rock",
-            "Ground"
+            `${process.env.API_URL}/assets/types/rock.png`,
+            `${process.env.API_URL}/assets/types/Ground.png`
         ],
         "base": {
             "HP": 80,
@@ -1643,7 +1643,7 @@ const pokemonsList = [
             "french": "Ponyta"
         },
         "type": [
-            "Fire"
+            `${process.env.API_URL}/assets/types/Fire.png`
         ],
         "base": {
             "HP": 50,
@@ -1664,7 +1664,7 @@ const pokemonsList = [
             "french": "Galopa"
         },
         "type": [
-            "Fire"
+            `${process.env.API_URL}/assets/types/Fire.png`
         ],
         "base": {
             "HP": 65,
@@ -1685,8 +1685,8 @@ const pokemonsList = [
             "french": "Ramoloss"
         },
         "type": [
-            "Water",
-            "Psychic"
+            `${process.env.API_URL}/assets/types/Water.png`,
+            `${process.env.API_URL}/assets/types/Psychic.png`
         ],
         "base": {
             "HP": 90,
@@ -1707,8 +1707,8 @@ const pokemonsList = [
             "french": "Flagadoss"
         },
         "type": [
-            "Water",
-            "Psychic"
+            `${process.env.API_URL}/assets/types/Water.png`,
+            `${process.env.API_URL}/assets/types/Psychic.png`
         ],
         "base": {
             "HP": 95,
@@ -1729,8 +1729,8 @@ const pokemonsList = [
             "french": "Magnéti"
         },
         "type": [
-            "Electric",
-            "Steel"
+            `${process.env.API_URL}/assets/types/Electric.png`,
+            `${process.env.API_URL}/assets/types/Steel.png`
         ],
         "base": {
             "HP": 25,
@@ -1751,8 +1751,8 @@ const pokemonsList = [
             "french": "Magnéton"
         },
         "type": [
-            "Electric",
-            "Steel"
+            `${process.env.API_URL}/assets/types/Electric.png`,
+            `${process.env.API_URL}/assets/types/Steel.png`
         ],
         "base": {
             "HP": 50,
@@ -1773,8 +1773,8 @@ const pokemonsList = [
             "french": "Canarticho"
         },
         "type": [
-            "Normal",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Normal.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`
         ],
         "base": {
             "HP": 52,
@@ -1795,8 +1795,8 @@ const pokemonsList = [
             "french": "Doduo"
         },
         "type": [
-            "Normal",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Normal.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`
         ],
         "base": {
             "HP": 35,
@@ -1817,8 +1817,8 @@ const pokemonsList = [
             "french": "Dodrio"
         },
         "type": [
-            "Normal",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Normal.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`
         ],
         "base": {
             "HP": 60,
@@ -1839,7 +1839,7 @@ const pokemonsList = [
             "french": "Otaria"
         },
         "type": [
-            "Water"
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 65,
@@ -1860,8 +1860,8 @@ const pokemonsList = [
             "french": "Lamantine"
         },
         "type": [
-            "Water",
-            "Ice"
+            `${process.env.API_URL}/assets/types/Water.png`,
+            `${process.env.API_URL}/assets/types/Ice.png`
         ],
         "base": {
             "HP": 90,
@@ -1882,7 +1882,7 @@ const pokemonsList = [
             "french": "Tadmorv"
         },
         "type": [
-            "Poison"
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 80,
@@ -1903,7 +1903,7 @@ const pokemonsList = [
             "french": "Grotadmorv"
         },
         "type": [
-            "Poison"
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 105,
@@ -1924,7 +1924,7 @@ const pokemonsList = [
             "french": "Kokiyas"
         },
         "type": [
-            "Water"
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 30,
@@ -1945,8 +1945,8 @@ const pokemonsList = [
             "french": "Crustabri"
         },
         "type": [
-            "Water",
-            "Ice"
+            `${process.env.API_URL}/assets/types/Water.png`,
+            `${process.env.API_URL}/assets/types/Ice.png`
         ],
         "base": {
             "HP": 50,
@@ -1967,8 +1967,8 @@ const pokemonsList = [
             "french": "Fantominus"
         },
         "type": [
-            "Ghost",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Ghost.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 30,
@@ -1989,8 +1989,8 @@ const pokemonsList = [
             "french": "Spectrum"
         },
         "type": [
-            "Ghost",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Ghost.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 45,
@@ -2011,8 +2011,8 @@ const pokemonsList = [
             "french": "Ectoplasma"
         },
         "type": [
-            "Ghost",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Ghost.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 60,
@@ -2033,8 +2033,8 @@ const pokemonsList = [
             "french": "Onix"
         },
         "type": [
-            "Rock",
-            "Ground"
+            `${process.env.API_URL}/assets/types/rock.png`,
+            `${process.env.API_URL}/assets/types/Ground.png`
         ],
         "base": {
             "HP": 35,
@@ -2055,7 +2055,7 @@ const pokemonsList = [
             "french": "Soporifik"
         },
         "type": [
-            "Psychic"
+            `${process.env.API_URL}/assets/types/Psychic.png`
         ],
         "base": {
             "HP": 60,
@@ -2076,7 +2076,7 @@ const pokemonsList = [
             "french": "Hypnomade"
         },
         "type": [
-            "Psychic"
+            `${process.env.API_URL}/assets/types/Psychic.png`
         ],
         "base": {
             "HP": 85,
@@ -2097,7 +2097,7 @@ const pokemonsList = [
             "french": "Krabby"
         },
         "type": [
-            "Water"
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 30,
@@ -2118,7 +2118,7 @@ const pokemonsList = [
             "french": "Krabboss"
         },
         "type": [
-            "Water"
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 55,
@@ -2139,7 +2139,7 @@ const pokemonsList = [
             "french": "Voltorbe"
         },
         "type": [
-            "Electric"
+            `${process.env.API_URL}/assets/types/Electric.png`
         ],
         "base": {
             "HP": 40,
@@ -2160,7 +2160,7 @@ const pokemonsList = [
             "french": "Électrode"
         },
         "type": [
-            "Electric"
+            `${process.env.API_URL}/assets/types/Electric.png`
         ],
         "base": {
             "HP": 60,
@@ -2181,8 +2181,8 @@ const pokemonsList = [
             "french": "Noeunoeuf"
         },
         "type": [
-            "Grass",
-            "Psychic"
+            `${process.env.API_URL}/assets/types/Grass.png`,
+            `${process.env.API_URL}/assets/types/Psychic.png`
         ],
         "base": {
             "HP": 60,
@@ -2203,8 +2203,8 @@ const pokemonsList = [
             "french": "Noadkoko"
         },
         "type": [
-            "Grass",
-            "Psychic"
+            `${process.env.API_URL}/assets/types/Grass.png`,
+            `${process.env.API_URL}/assets/types/Psychic.png`
         ],
         "base": {
             "HP": 95,
@@ -2225,7 +2225,7 @@ const pokemonsList = [
             "french": "Osselait"
         },
         "type": [
-            "Ground"
+            `${process.env.API_URL}/assets/types/Ground.png`
         ],
         "base": {
             "HP": 50,
@@ -2246,7 +2246,7 @@ const pokemonsList = [
             "french": "Ossatueur"
         },
         "type": [
-            "Ground"
+            `${process.env.API_URL}/assets/types/Ground.png`
         ],
         "base": {
             "HP": 60,
@@ -2267,7 +2267,7 @@ const pokemonsList = [
             "french": "Kicklee"
         },
         "type": [
-            "Fighting"
+            `${process.env.API_URL}/assets/types/fighting.png`
         ],
         "base": {
             "HP": 50,
@@ -2288,7 +2288,7 @@ const pokemonsList = [
             "french": "Tygnon"
         },
         "type": [
-            "Fighting"
+            `${process.env.API_URL}/assets/types/fighting.png`
         ],
         "base": {
             "HP": 50,
@@ -2309,7 +2309,7 @@ const pokemonsList = [
             "french": "Excelangue"
         },
         "type": [
-            "Normal"
+            `${process.env.API_URL}/assets/types/Normal.png`
         ],
         "base": {
             "HP": 90,
@@ -2330,7 +2330,7 @@ const pokemonsList = [
             "french": "Smogo"
         },
         "type": [
-            "Poison"
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 40,
@@ -2351,7 +2351,7 @@ const pokemonsList = [
             "french": "Smogogo"
         },
         "type": [
-            "Poison"
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 65,
@@ -2372,8 +2372,8 @@ const pokemonsList = [
             "french": "Rhinocorne"
         },
         "type": [
-            "Ground",
-            "Rock"
+            `${process.env.API_URL}/assets/types/Ground.png`,
+            `${process.env.API_URL}/assets/types/rock.png`
         ],
         "base": {
             "HP": 80,
@@ -2394,8 +2394,8 @@ const pokemonsList = [
             "french": "Rhinoféros"
         },
         "type": [
-            "Ground",
-            "Rock"
+            `${process.env.API_URL}/assets/types/Ground.png`,
+            `${process.env.API_URL}/assets/types/rock.png`
         ],
         "base": {
             "HP": 105,
@@ -2416,7 +2416,7 @@ const pokemonsList = [
             "french": "Leveinard"
         },
         "type": [
-            "Normal"
+            `${process.env.API_URL}/assets/types/Normal.png`
         ],
         "base": {
             "HP": 250,
@@ -2437,7 +2437,7 @@ const pokemonsList = [
             "french": "Saquedeneu"
         },
         "type": [
-            "Grass"
+            `${process.env.API_URL}/assets/types/Grass.png`
         ],
         "base": {
             "HP": 65,
@@ -2458,7 +2458,7 @@ const pokemonsList = [
             "french": "Kangourex"
         },
         "type": [
-            "Normal"
+            `${process.env.API_URL}/assets/types/Normal.png`
         ],
         "base": {
             "HP": 105,
@@ -2479,7 +2479,7 @@ const pokemonsList = [
             "french": "Hypotrempe"
         },
         "type": [
-            "Water"
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 30,
@@ -2500,7 +2500,7 @@ const pokemonsList = [
             "french": "Hypocéan"
         },
         "type": [
-            "Water"
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 55,
@@ -2521,7 +2521,7 @@ const pokemonsList = [
             "french": "Poissirène"
         },
         "type": [
-            "Water"
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 45,
@@ -2542,7 +2542,7 @@ const pokemonsList = [
             "french": "Poissoroy"
         },
         "type": [
-            "Water"
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 80,
@@ -2563,7 +2563,7 @@ const pokemonsList = [
             "french": "Stari"
         },
         "type": [
-            "Water"
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 30,
@@ -2584,8 +2584,8 @@ const pokemonsList = [
             "french": "Staross"
         },
         "type": [
-            "Water",
-            "Psychic"
+            `${process.env.API_URL}/assets/types/Water.png`,
+            `${process.env.API_URL}/assets/types/Psychic.png`
         ],
         "base": {
             "HP": 60,
@@ -2606,8 +2606,8 @@ const pokemonsList = [
             "french": "M. Mime"
         },
         "type": [
-            "Psychic",
-            "Fairy"
+            `${process.env.API_URL}/assets/types/Psychic.png`,
+            `${process.env.API_URL}/assets/types/Fairy.png`
         ],
         "base": {
             "HP": 40,
@@ -2628,8 +2628,8 @@ const pokemonsList = [
             "french": "Insécateur"
         },
         "type": [
-            "Bug",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Bug.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`
         ],
         "base": {
             "HP": 70,
@@ -2650,8 +2650,8 @@ const pokemonsList = [
             "french": "Lippoutou"
         },
         "type": [
-            "Ice",
-            "Psychic"
+            `${process.env.API_URL}/assets/types/Ice.png`,
+            `${process.env.API_URL}/assets/types/Psychic.png`
         ],
         "base": {
             "HP": 65,
@@ -2672,7 +2672,7 @@ const pokemonsList = [
             "french": "Élektek"
         },
         "type": [
-            "Electric"
+            `${process.env.API_URL}/assets/types/Electric.png`
         ],
         "base": {
             "HP": 65,
@@ -2693,7 +2693,7 @@ const pokemonsList = [
             "french": "Magmar"
         },
         "type": [
-            "Fire"
+            `${process.env.API_URL}/assets/types/Fire.png`
         ],
         "base": {
             "HP": 65,
@@ -2714,7 +2714,7 @@ const pokemonsList = [
             "french": "Scarabrute"
         },
         "type": [
-            "Bug"
+            `${process.env.API_URL}/assets/types/Bug.png`
         ],
         "base": {
             "HP": 65,
@@ -2735,7 +2735,7 @@ const pokemonsList = [
             "french": "Tauros"
         },
         "type": [
-            "Normal"
+            `${process.env.API_URL}/assets/types/Normal.png`
         ],
         "base": {
             "HP": 75,
@@ -2756,7 +2756,7 @@ const pokemonsList = [
             "french": "Magicarpe"
         },
         "type": [
-            "Water"
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 20,
@@ -2777,8 +2777,8 @@ const pokemonsList = [
             "french": "Léviator"
         },
         "type": [
-            "Water",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Water.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`
         ],
         "base": {
             "HP": 95,
@@ -2799,8 +2799,8 @@ const pokemonsList = [
             "french": "Lokhlass"
         },
         "type": [
-            "Water",
-            "Ice"
+            `${process.env.API_URL}/assets/types/Water.png`,
+            `${process.env.API_URL}/assets/types/Ice.png`
         ],
         "base": {
             "HP": 130,
@@ -2821,7 +2821,7 @@ const pokemonsList = [
             "french": "Métamorph"
         },
         "type": [
-            "Normal"
+            `${process.env.API_URL}/assets/types/Normal.png`
         ],
         "base": {
             "HP": 48,
@@ -2842,7 +2842,7 @@ const pokemonsList = [
             "french": "Évoli"
         },
         "type": [
-            "Normal"
+            `${process.env.API_URL}/assets/types/Normal.png`
         ],
         "base": {
             "HP": 55,
@@ -2863,7 +2863,7 @@ const pokemonsList = [
             "french": "Aquali"
         },
         "type": [
-            "Water"
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 130,
@@ -2884,7 +2884,7 @@ const pokemonsList = [
             "french": "Voltali"
         },
         "type": [
-            "Electric"
+            `${process.env.API_URL}/assets/types/Electric.png`
         ],
         "base": {
             "HP": 65,
@@ -2905,7 +2905,7 @@ const pokemonsList = [
             "french": "Pyroli"
         },
         "type": [
-            "Fire"
+            `${process.env.API_URL}/assets/types/Fire.png`
         ],
         "base": {
             "HP": 65,
@@ -2926,7 +2926,7 @@ const pokemonsList = [
             "french": "Porygon"
         },
         "type": [
-            "Normal"
+            `${process.env.API_URL}/assets/types/Normal.png`
         ],
         "base": {
             "HP": 65,
@@ -2947,8 +2947,8 @@ const pokemonsList = [
             "french": "Amonita"
         },
         "type": [
-            "Rock",
-            "Water"
+            `${process.env.API_URL}/assets/types/Rock.png`,
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 35,
@@ -2969,8 +2969,8 @@ const pokemonsList = [
             "french": "Amonistar"
         },
         "type": [
-            "Rock",
-            "Water"
+            `${process.env.API_URL}/assets/types/Rock.png`,
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 70,
@@ -2991,8 +2991,8 @@ const pokemonsList = [
             "french": "Kabuto"
         },
         "type": [
-            "Rock",
-            "Water"
+            `${process.env.API_URL}/assets/types/Rock.png`,
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 30,
@@ -3013,8 +3013,8 @@ const pokemonsList = [
             "french": "Kabutops"
         },
         "type": [
-            "Rock",
-            "Water"
+            `${process.env.API_URL}/assets/types/Rock.png`,
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 60,
@@ -3035,8 +3035,8 @@ const pokemonsList = [
             "french": "Ptéra"
         },
         "type": [
-            "Rock",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Rock.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`,
         ],
         "base": {
             "HP": 80,
@@ -3057,7 +3057,7 @@ const pokemonsList = [
             "french": "Ronflex"
         },
         "type": [
-            "Normal"
+            `${process.env.API_URL}/assets/types/Normal.png`
         ],
         "base": {
             "HP": 160,
@@ -3078,8 +3078,8 @@ const pokemonsList = [
             "french": "Artikodin"
         },
         "type": [
-            "Ice",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Ice.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`
         ],
         "base": {
             "HP": 90,
@@ -3100,8 +3100,8 @@ const pokemonsList = [
             "french": "Électhor"
         },
         "type": [
-            "Electric",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Electric.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`
         ],
         "base": {
             "HP": 90,
@@ -3122,8 +3122,8 @@ const pokemonsList = [
             "french": "Sulfura"
         },
         "type": [
-            "Fire",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Fire.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`
         ],
         "base": {
             "HP": 90,
@@ -3144,7 +3144,7 @@ const pokemonsList = [
             "french": "Minidraco"
         },
         "type": [
-            "Dragon"
+            `${process.env.API_URL}/assets/types/Dragon.png`
         ],
         "base": {
             "HP": 41,
@@ -3165,7 +3165,7 @@ const pokemonsList = [
             "french": "Draco"
         },
         "type": [
-            "Dragon"
+            `${process.env.API_URL}/assets/types/Dragon.png`
         ],
         "base": {
             "HP": 61,
@@ -3186,8 +3186,8 @@ const pokemonsList = [
             "french": "Dracolosse"
         },
         "type": [
-            "Dragon",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Dragon.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`
         ],
         "base": {
             "HP": 91,
@@ -3208,7 +3208,7 @@ const pokemonsList = [
             "french": "Mewtwo"
         },
         "type": [
-            "Psychic"
+            `${process.env.API_URL}/assets/types/Psychic.png`
         ],
         "base": {
             "HP": 106,
@@ -3229,7 +3229,7 @@ const pokemonsList = [
             "french": "Mew"
         },
         "type": [
-            "Psychic"
+            `${process.env.API_URL}/assets/types/Psychic.png`
         ],
         "base": {
             "HP": 100,
