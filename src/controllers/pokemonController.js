@@ -24,7 +24,7 @@ export const getPaginatedPokemons = async (req, res) => {
             pokemons,
         });
     } catch (error) {
-        res.status(500).json({ message: "Erreur lors de la récupération des Pokémon" });
+        res.status(500).json({ message: "Erreur lors de la récupération des Pokémon." });
     }
 }
 

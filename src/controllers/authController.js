@@ -2,8 +2,8 @@ import jwt from "jsonwebtoken";
 import User from "../models/User.js";
 
 // Générer un token JWT
-const generateToken = (id) => {
-    return jwt.sign({ id }, process.env.JWT_SECRET, { expiresIn: "30m" });
+const generateToken = (id, username) => {
+    return jwt.sign({ id, username }, process.env.JWT_SECRET, { expiresIn: "30m" });
 };
 
 /**
@@ -27,7 +27,7 @@ export const registerUser = async (req, res) => {
             res.status(201).json({
                 _id: user.id,
                 username: user.username,
-                token: generateToken(user.id),
+                token: generateToken(user.id, user.username),
             });
         } else {
             res.status(400).json({ message: "Données utilisateur invalides" });
@@ -52,7 +52,7 @@ export const loginUser = async (req, res) => {
             res.json({
                 _id: user.id,
                 username: user.username,
-                token: generateToken(user.id),
+                token: generateToken(user.id, user.username),
             });
         } else {
             res.status(401).json({ message: "Identifiants invalides" });
