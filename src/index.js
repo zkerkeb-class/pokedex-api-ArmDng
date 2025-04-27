@@ -43,7 +43,6 @@ app.use("/api/pokemons", pokemonRoutes);
 app.use("/api", authRoutes);
 
 
-
 // Démarrage du serveur
 app.listen(PORT, () => {
     console.log(`Serveur démarré sur ${process.env.API_URL}`);
