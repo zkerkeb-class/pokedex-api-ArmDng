@@ -12,15 +12,15 @@ const pokemonsList = [
             "french": "Bulbizarre"
         },
         "type": [
-            "Grass",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Grass.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 45,
             "Attack": 49,
             "Defense": 49,
-            "Sp. Attack": 65,
-            "Sp. Defense": 65,
+            "Sp_Attack": 65,
+            "Sp_Defense": 65,
             "Speed": 45
         },
         "image": `${process.env.API_URL}/assets/pokemons/1.png`     
@@ -34,15 +34,15 @@ const pokemonsList = [
             "french": "Herbizarre"
         },
         "type": [
-            "Grass",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Grass.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 60,
             "Attack": 62,
             "Defense": 63,
-            "Sp. Attack": 80,
-            "Sp. Defense": 80,
+            "Sp_Attack": 80,
+            "Sp_Defense": 80,
             "Speed": 60
         },
         "image": `${process.env.API_URL}/assets/pokemons/2.png` 
@@ -56,15 +56,15 @@ const pokemonsList = [
             "french": "Florizarre"
         },
         "type": [
-            "Grass",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Grass.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 80,
             "Attack": 82,
             "Defense": 83,
-            "Sp. Attack": 100,
-            "Sp. Defense": 100,
+            "Sp_Attack": 100,
+            "Sp_Defense": 100,
             "Speed": 80
         },
         "image": `${process.env.API_URL}/assets/pokemons/3.png`
@@ -78,14 +78,14 @@ const pokemonsList = [
             "french": "Salamèche"
         },
         "type": [
-            "Fire"
+            `${process.env.API_URL}/assets/types/Fire.png`
         ],
         "base": {
             "HP": 39,
             "Attack": 52,
             "Defense": 43,
-            "Sp. Attack": 60,
-            "Sp. Defense": 50,
+            "Sp_Attack": 60,
+            "Sp_Defense": 50,
             "Speed": 65
         },
         "image": `${process.env.API_URL}/assets/pokemons/4.png`
@@ -99,14 +99,14 @@ const pokemonsList = [
             "french": "Reptincel"
         },
         "type": [
-            "Fire"
+            `${process.env.API_URL}/assets/types/Fire.png`
         ],
         "base": {
             "HP": 58,
             "Attack": 64,
             "Defense": 58,
-            "Sp. Attack": 80,
-            "Sp. Defense": 65,
+            "Sp_Attack": 80,
+            "Sp_Defense": 65,
             "Speed": 80
         },
         "image": `${process.env.API_URL}/assets/pokemons/5.png`
@@ -120,15 +120,15 @@ const pokemonsList = [
             "french": "Dracaufeu"
         },
         "type": [
-            "Fire",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Fire.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`
         ],
         "base": {
             "HP": 78,
             "Attack": 84,
             "Defense": 78,
-            "Sp. Attack": 109,
-            "Sp. Defense": 85,
+            "Sp_Attack": 109,
+            "Sp_Defense": 85,
             "Speed": 100
         },
         "image": `${process.env.API_URL}/assets/pokemons/6.png`
@@ -142,14 +142,14 @@ const pokemonsList = [
             "french": "Carapuce"
         },
         "type": [
-            "Water"
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 44,
             "Attack": 48,
             "Defense": 65,
-            "Sp. Attack": 50,
-            "Sp. Defense": 64,
+            "Sp_Attack": 50,
+            "Sp_Defense": 64,
             "Speed": 43
         },
         "image": `${process.env.API_URL}/assets/pokemons/7.png`
@@ -163,14 +163,14 @@ const pokemonsList = [
             "french": "Carabaffe"
         },
         "type": [
-            "Water"
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 59,
             "Attack": 63,
             "Defense": 80,
-            "Sp. Attack": 65,
-            "Sp. Defense": 80,
+            "Sp_Attack": 65,
+            "Sp_Defense": 80,
             "Speed": 58
         },
         "image": `${process.env.API_URL}/assets/pokemons/8.png`
@@ -184,14 +184,14 @@ const pokemonsList = [
             "french": "Tortank"
         },
         "type": [
-            "Water"
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 79,
             "Attack": 83,
             "Defense": 100,
-            "Sp. Attack": 85,
-            "Sp. Defense": 105,
+            "Sp_Attack": 85,
+            "Sp_Defense": 105,
             "Speed": 78
         },
         "image": `${process.env.API_URL}/assets/pokemons/9.png`
@@ -205,14 +205,14 @@ const pokemonsList = [
             "french": "Chenipan"
         },
         "type": [
-            "Bug"
+            `${process.env.API_URL}/assets/types/Bug.png`
         ],
         "base": {
             "HP": 45,
             "Attack": 30,
             "Defense": 35,
-            "Sp. Attack": 20,
-            "Sp. Defense": 20,
+            "Sp_Attack": 20,
+            "Sp_Defense": 20,
             "Speed": 45
         },
         "image": `${process.env.API_URL}/assets/pokemons/10.png`
@@ -226,14 +226,14 @@ const pokemonsList = [
             "french": "Chrysacier"
         },
         "type": [
-            "Bug"
+            `${process.env.API_URL}/assets/types/Bug.png`
         ],
         "base": {
             "HP": 50,
             "Attack": 20,
             "Defense": 55,
-            "Sp. Attack": 25,
-            "Sp. Defense": 25,
+            "Sp_Attack": 25,
+            "Sp_Defense": 25,
             "Speed": 30
         },
         "image": `${process.env.API_URL}/assets/pokemons/11.png`
@@ -247,15 +247,15 @@ const pokemonsList = [
             "french": "Papilusion"
         },
         "type": [
-            "Bug",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Bug.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`
         ],
         "base": {
             "HP": 60,
             "Attack": 45,
             "Defense": 50,
-            "Sp. Attack": 90,
-            "Sp. Defense": 80,
+            "Sp_Attack": 90,
+            "Sp_Defense": 80,
             "Speed": 70
         },
         "image": `${process.env.API_URL}/assets/pokemons/12.png`
@@ -269,15 +269,15 @@ const pokemonsList = [
             "french": "Aspicot"
         },
         "type": [
-            "Bug",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Bug.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 40,
             "Attack": 35,
             "Defense": 30,
-            "Sp. Attack": 20,
-            "Sp. Defense": 20,
+            "Sp_Attack": 20,
+            "Sp_Defense": 20,
             "Speed": 50
         },
         "image": `${process.env.API_URL}/assets/pokemons/13.png`
@@ -291,15 +291,15 @@ const pokemonsList = [
             "french": "Coconfort"
         },
         "type": [
-            "Bug",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Bug.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 45,
             "Attack": 25,
             "Defense": 50,
-            "Sp. Attack": 25,
-            "Sp. Defense": 25,
+            "Sp_Attack": 25,
+            "Sp_Defense": 25,
             "Speed": 35
         },
         "image": `${process.env.API_URL}/assets/pokemons/14.png`
@@ -313,15 +313,15 @@ const pokemonsList = [
             "french": "Dardargnan"
         },
         "type": [
-            "Bug",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Bug.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 65,
             "Attack": 90,
             "Defense": 40,
-            "Sp. Attack": 45,
-            "Sp. Defense": 80,
+            "Sp_Attack": 45,
+            "Sp_Defense": 80,
             "Speed": 75
         },
         "image": `${process.env.API_URL}/assets/pokemons/15.png`
@@ -335,15 +335,15 @@ const pokemonsList = [
             "french": "Roucool"
         },
         "type": [
-            "Normal",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Normal.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`
         ],
         "base": {
             "HP": 40,
             "Attack": 45,
             "Defense": 40,
-            "Sp. Attack": 35,
-            "Sp. Defense": 35,
+            "Sp_Attack": 35,
+            "Sp_Defense": 35,
             "Speed": 56
         },
         "image": `${process.env.API_URL}/assets/pokemons/16.png`
@@ -357,15 +357,15 @@ const pokemonsList = [
             "french": "Roucoups"
         },
         "type": [
-            "Normal",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Normal.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`
         ],
         "base": {
             "HP": 63,
             "Attack": 60,
             "Defense": 55,
-            "Sp. Attack": 50,
-            "Sp. Defense": 50,
+            "Sp_Attack": 50,
+            "Sp_Defense": 50,
             "Speed": 71
         },
         "image": `${process.env.API_URL}/assets/pokemons/17.png`
@@ -379,15 +379,15 @@ const pokemonsList = [
             "french": "Roucarnage"
         },
         "type": [
-            "Normal",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Normal.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`
         ],
         "base": {
             "HP": 83,
             "Attack": 80,
             "Defense": 75,
-            "Sp. Attack": 70,
-            "Sp. Defense": 70,
+            "Sp_Attack": 70,
+            "Sp_Defense": 70,
             "Speed": 101
         },
         "image": `${process.env.API_URL}/assets/pokemons/18.png`
@@ -401,14 +401,14 @@ const pokemonsList = [
             "french": "Rattata"
         },
         "type": [
-            "Normal"
+            `${process.env.API_URL}/assets/types/Normal.png`
         ],
         "base": {
             "HP": 30,
             "Attack": 56,
             "Defense": 35,
-            "Sp. Attack": 25,
-            "Sp. Defense": 35,
+            "Sp_Attack": 25,
+            "Sp_Defense": 35,
             "Speed": 72
         },
         "image": `${process.env.API_URL}/assets/pokemons/19.png`
@@ -422,14 +422,14 @@ const pokemonsList = [
             "french": "Rattatac"
         },
         "type": [
-            "Normal"
+            `${process.env.API_URL}/assets/types/Normal.png`
         ],
         "base": {
             "HP": 55,
             "Attack": 81,
             "Defense": 60,
-            "Sp. Attack": 50,
-            "Sp. Defense": 70,
+            "Sp_Attack": 50,
+            "Sp_Defense": 70,
             "Speed": 97
         },
         "image": `${process.env.API_URL}/assets/pokemons/20.png`
@@ -443,15 +443,15 @@ const pokemonsList = [
             "french": "Piafabec"
         },
         "type": [
-            "Normal",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Normal.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`
         ],
         "base": {
             "HP": 40,
             "Attack": 60,
             "Defense": 30,
-            "Sp. Attack": 31,
-            "Sp. Defense": 31,
+            "Sp_Attack": 31,
+            "Sp_Defense": 31,
             "Speed": 70
         },
         "image": `${process.env.API_URL}/assets/pokemons/21.png`
@@ -465,15 +465,15 @@ const pokemonsList = [
             "french": "Rapasdepic"
         },
         "type": [
-            "Normal",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Normal.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`
         ],
         "base": {
             "HP": 65,
             "Attack": 90,
             "Defense": 65,
-            "Sp. Attack": 61,
-            "Sp. Defense": 61,
+            "Sp_Attack": 61,
+            "Sp_Defense": 61,
             "Speed": 100
         },
         "image": `${process.env.API_URL}/assets/pokemons/22.png`
@@ -487,14 +487,14 @@ const pokemonsList = [
             "french": "Abo"
         },
         "type": [
-            "Poison"
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 35,
             "Attack": 60,
             "Defense": 44,
-            "Sp. Attack": 40,
-            "Sp. Defense": 54,
+            "Sp_Attack": 40,
+            "Sp_Defense": 54,
             "Speed": 55
         },
         "image": `${process.env.API_URL}/assets/pokemons/23.png`
@@ -508,14 +508,14 @@ const pokemonsList = [
             "french": "Arbok"
         },
         "type": [
-            "Poison"
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 60,
             "Attack": 95,
             "Defense": 69,
-            "Sp. Attack": 65,
-            "Sp. Defense": 79,
+            "Sp_Attack": 65,
+            "Sp_Defense": 79,
             "Speed": 80
         },
         "image": `${process.env.API_URL}/assets/pokemons/24.png`
@@ -529,14 +529,14 @@ const pokemonsList = [
             "french": "Pikachu"
         },
         "type": [
-            "Electric"
+            `${process.env.API_URL}/assets/types/Electric.png`
         ],
         "base": {
             "HP": 35,
             "Attack": 55,
             "Defense": 40,
-            "Sp. Attack": 50,
-            "Sp. Defense": 50,
+            "Sp_Attack": 50,
+            "Sp_Defense": 50,
             "Speed": 90
         },
         "image": `${process.env.API_URL}/assets/pokemons/25.png`
@@ -550,14 +550,14 @@ const pokemonsList = [
             "french": "Raichu"
         },
         "type": [
-            "Electric"
+            `${process.env.API_URL}/assets/types/Electric.png`
         ],
         "base": {
             "HP": 60,
             "Attack": 90,
             "Defense": 55,
-            "Sp. Attack": 90,
-            "Sp. Defense": 80,
+            "Sp_Attack": 90,
+            "Sp_Defense": 80,
             "Speed": 110
         },
         "image": `${process.env.API_URL}/assets/pokemons/26.png`
@@ -571,14 +571,14 @@ const pokemonsList = [
             "french": "Sabelette"
         },
         "type": [
-            "Ground"
+            `${process.env.API_URL}/assets/types/Ground.png`
         ],
         "base": {
             "HP": 50,
             "Attack": 75,
             "Defense": 85,
-            "Sp. Attack": 20,
-            "Sp. Defense": 30,
+            "Sp_Attack": 20,
+            "Sp_Defense": 30,
             "Speed": 40
         },
         "image": `${process.env.API_URL}/assets/pokemons/27.png`
@@ -592,14 +592,14 @@ const pokemonsList = [
             "french": "Sablaireau"
         },
         "type": [
-            "Ground"
+            `${process.env.API_URL}/assets/types/Ground.png`
         ],
         "base": {
             "HP": 75,
             "Attack": 100,
             "Defense": 110,
-            "Sp. Attack": 45,
-            "Sp. Defense": 55,
+            "Sp_Attack": 45,
+            "Sp_Defense": 55,
             "Speed": 65
         },
         "image": `${process.env.API_URL}/assets/pokemons/28.png`
@@ -613,14 +613,14 @@ const pokemonsList = [
             "french": "Nidoran♀"
         },
         "type": [
-            "Poison"
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 55,
             "Attack": 47,
             "Defense": 52,
-            "Sp. Attack": 40,
-            "Sp. Defense": 40,
+            "Sp_Attack": 40,
+            "Sp_Defense": 40,
             "Speed": 41
         },
         "image": `${process.env.API_URL}/assets/pokemons/29.png`
@@ -634,14 +634,14 @@ const pokemonsList = [
             "french": "Nidorina"
         },
         "type": [
-            "Poison"
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 70,
             "Attack": 62,
             "Defense": 67,
-            "Sp. Attack": 55,
-            "Sp. Defense": 55,
+            "Sp_Attack": 55,
+            "Sp_Defense": 55,
             "Speed": 56
         },
         "image": `${process.env.API_URL}/assets/pokemons/30.png`
@@ -655,15 +655,15 @@ const pokemonsList = [
             "french": "Nidoqueen"
         },
         "type": [
-            "Poison",
-            "Ground"
+            `${process.env.API_URL}/assets/types/Poison.png`,
+            `${process.env.API_URL}/assets/types/Ground.png`
         ],
         "base": {
             "HP": 90,
             "Attack": 92,
             "Defense": 87,
-            "Sp. Attack": 75,
-            "Sp. Defense": 85,
+            "Sp_Attack": 75,
+            "Sp_Defense": 85,
             "Speed": 76
         },
         "image": `${process.env.API_URL}/assets/pokemons/31.png`
@@ -677,14 +677,14 @@ const pokemonsList = [
             "french": "Nidoran♂"
         },
         "type": [
-            "Poison"
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 46,
             "Attack": 57,
             "Defense": 40,
-            "Sp. Attack": 40,
-            "Sp. Defense": 40,
+            "Sp_Attack": 40,
+            "Sp_Defense": 40,
             "Speed": 50
         },
         "image": `${process.env.API_URL}/assets/pokemons/32.png`
@@ -698,14 +698,14 @@ const pokemonsList = [
             "french": "Nidorino"
         },
         "type": [
-            "Poison"
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 61,
             "Attack": 72,
             "Defense": 57,
-            "Sp. Attack": 55,
-            "Sp. Defense": 55,
+            "Sp_Attack": 55,
+            "Sp_Defense": 55,
             "Speed": 65
         },
         "image": `${process.env.API_URL}/assets/pokemons/33.png`
@@ -719,15 +719,15 @@ const pokemonsList = [
             "french": "Nidoking"
         },
         "type": [
-            "Poison",
-            "Ground"
+            `${process.env.API_URL}/assets/types/Poison.png`,
+            `${process.env.API_URL}/assets/types/Ground.png`
         ],
         "base": {
             "HP": 81,
             "Attack": 102,
             "Defense": 77,
-            "Sp. Attack": 85,
-            "Sp. Defense": 75,
+            "Sp_Attack": 85,
+            "Sp_Defense": 75,
             "Speed": 85
         },
         "image": `${process.env.API_URL}/assets/pokemons/34.png`
@@ -741,14 +741,14 @@ const pokemonsList = [
             "french": "Mélofée"
         },
         "type": [
-            "Fairy"
+            `${process.env.API_URL}/assets/types/Fairy.png`
         ],
         "base": {
             "HP": 70,
             "Attack": 45,
             "Defense": 48,
-            "Sp. Attack": 60,
-            "Sp. Defense": 65,
+            "Sp_Attack": 60,
+            "Sp_Defense": 65,
             "Speed": 35
         },
         "image": `${process.env.API_URL}/assets/pokemons/35.png`
@@ -762,14 +762,14 @@ const pokemonsList = [
             "french": "Mélodelfe"
         },
         "type": [
-            "Fairy"
+            `${process.env.API_URL}/assets/types/Fairy.png`
         ],
         "base": {
             "HP": 95,
             "Attack": 70,
             "Defense": 73,
-            "Sp. Attack": 95,
-            "Sp. Defense": 90,
+            "Sp_Attack": 95,
+            "Sp_Defense": 90,
             "Speed": 60
         },
         "image": `${process.env.API_URL}/assets/pokemons/36.png`
@@ -783,14 +783,14 @@ const pokemonsList = [
             "french": "Goupix"
         },
         "type": [
-            "Fire"
+            `${process.env.API_URL}/assets/types/Fire.png`
         ],
         "base": {
             "HP": 38,
             "Attack": 41,
             "Defense": 40,
-            "Sp. Attack": 50,
-            "Sp. Defense": 65,
+            "Sp_Attack": 50,
+            "Sp_Defense": 65,
             "Speed": 65
         },
         "image": `${process.env.API_URL}/assets/pokemons/37.png`
@@ -804,14 +804,14 @@ const pokemonsList = [
             "french": "Feunard"
         },
         "type": [
-            "Fire"
+            `${process.env.API_URL}/assets/types/Fire.png`
         ],
         "base": {
             "HP": 73,
             "Attack": 76,
             "Defense": 75,
-            "Sp. Attack": 81,
-            "Sp. Defense": 100,
+            "Sp_Attack": 81,
+            "Sp_Defense": 100,
             "Speed": 100
         },
         "image": `${process.env.API_URL}/assets/pokemons/38.png`
@@ -825,15 +825,15 @@ const pokemonsList = [
             "french": "Rondoudou"
         },
         "type": [
-            "Normal",
-            "Fairy"
+            `${process.env.API_URL}/assets/types/Normal.png`,
+            `${process.env.API_URL}/assets/types/Fairy.png`
         ],
         "base": {
             "HP": 115,
             "Attack": 45,
             "Defense": 20,
-            "Sp. Attack": 45,
-            "Sp. Defense": 25,
+            "Sp_Attack": 45,
+            "Sp_Defense": 25,
             "Speed": 20
         },
         "image": `${process.env.API_URL}/assets/pokemons/39.png`
@@ -847,15 +847,15 @@ const pokemonsList = [
             "french": "Grodoudou"
         },
         "type": [
-            "Normal",
-            "Fairy"
+            `${process.env.API_URL}/assets/types/Normal.png`,
+            `${process.env.API_URL}/assets/types/Fairy.png`
         ],
         "base": {
             "HP": 140,
             "Attack": 70,
             "Defense": 45,
-            "Sp. Attack": 85,
-            "Sp. Defense": 50,
+            "Sp_Attack": 85,
+            "Sp_Defense": 50,
             "Speed": 45
         },
         "image": `${process.env.API_URL}/assets/pokemons/40.png`
@@ -869,15 +869,15 @@ const pokemonsList = [
             "french": "Nosferapti"
         },
         "type": [
-            "Poison",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Poison.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`
         ],
         "base": {
             "HP": 40,
             "Attack": 45,
             "Defense": 35,
-            "Sp. Attack": 30,
-            "Sp. Defense": 40,
+            "Sp_Attack": 30,
+            "Sp_Defense": 40,
             "Speed": 55
         },
         "image": `${process.env.API_URL}/assets/pokemons/41.png`
@@ -891,15 +891,15 @@ const pokemonsList = [
             "french": "Nosferalto"
         },
         "type": [
-            "Poison",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Poison.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`
         ],
         "base": {
             "HP": 75,
             "Attack": 80,
             "Defense": 70,
-            "Sp. Attack": 65,
-            "Sp. Defense": 75,
+            "Sp_Attack": 65,
+            "Sp_Defense": 75,
             "Speed": 90
         },
         "image": `${process.env.API_URL}/assets/pokemons/42.png`
@@ -913,15 +913,15 @@ const pokemonsList = [
             "french": "Mystherbe"
         },
         "type": [
-            "Grass",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Grass.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 45,
             "Attack": 50,
             "Defense": 55,
-            "Sp. Attack": 75,
-            "Sp. Defense": 65,
+            "Sp_Attack": 75,
+            "Sp_Defense": 65,
             "Speed": 30
         },
         "image": `${process.env.API_URL}/assets/pokemons/43.png`
@@ -935,15 +935,15 @@ const pokemonsList = [
             "french": "Ortide"
         },
         "type": [
-            "Grass",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Grass.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 60,
             "Attack": 65,
             "Defense": 70,
-            "Sp. Attack": 85,
-            "Sp. Defense": 75,
+            "Sp_Attack": 85,
+            "Sp_Defense": 75,
             "Speed": 40
         },
         "image": `${process.env.API_URL}/assets/pokemons/44.png`
@@ -957,15 +957,15 @@ const pokemonsList = [
             "french": "Rafflesia"
         },
         "type": [
-            "Grass",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Grass.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 75,
             "Attack": 80,
             "Defense": 85,
-            "Sp. Attack": 110,
-            "Sp. Defense": 90,
+            "Sp_Attack": 110,
+            "Sp_Defense": 90,
             "Speed": 50
         },
         "image": `${process.env.API_URL}/assets/pokemons/45.png`
@@ -979,15 +979,15 @@ const pokemonsList = [
             "french": "Paras"
         },
         "type": [
-            "Bug",
-            "Grass"
+            `${process.env.API_URL}/assets/types/Bug.png`,
+            `${process.env.API_URL}/assets/types/Grass.png`
         ],
         "base": {
             "HP": 35,
             "Attack": 70,
             "Defense": 55,
-            "Sp. Attack": 45,
-            "Sp. Defense": 55,
+            "Sp_Attack": 45,
+            "Sp_Defense": 55,
             "Speed": 25
         },
         "image": `${process.env.API_URL}/assets/pokemons/46.png`
@@ -1001,15 +1001,15 @@ const pokemonsList = [
             "french": "Parasect"
         },
         "type": [
-            "Bug",
-            "Grass"
+            `${process.env.API_URL}/assets/types/Bug.png`,
+            `${process.env.API_URL}/assets/types/Grass.png`
         ],
         "base": {
             "HP": 60,
             "Attack": 95,
             "Defense": 80,
-            "Sp. Attack": 60,
-            "Sp. Defense": 80,
+            "Sp_Attack": 60,
+            "Sp_Defense": 80,
             "Speed": 30
         },
         "image": `${process.env.API_URL}/assets/pokemons/47.png`
@@ -1023,15 +1023,15 @@ const pokemonsList = [
             "french": "Mimitoss"
         },
         "type": [
-            "Bug",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Bug.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 60,
             "Attack": 55,
             "Defense": 50,
-            "Sp. Attack": 40,
-            "Sp. Defense": 55,
+            "Sp_Attack": 40,
+            "Sp_Defense": 55,
             "Speed": 45
         },
         "image": `${process.env.API_URL}/assets/pokemons/48.png`
@@ -1045,15 +1045,15 @@ const pokemonsList = [
             "french": "Aéromite"
         },
         "type": [
-            "Bug",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Bug.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 70,
             "Attack": 65,
             "Defense": 60,
-            "Sp. Attack": 90,
-            "Sp. Defense": 75,
+            "Sp_Attack": 90,
+            "Sp_Defense": 75,
             "Speed": 90
         },
         "image": `${process.env.API_URL}/assets/pokemons/49.png`
@@ -1067,14 +1067,14 @@ const pokemonsList = [
             "french": "Taupiqueur"
         },
         "type": [
-            "Ground"
+            `${process.env.API_URL}/assets/types/Ground.png`
         ],
         "base": {
             "HP": 10,
             "Attack": 55,
             "Defense": 25,
-            "Sp. Attack": 35,
-            "Sp. Defense": 45,
+            "Sp_Attack": 35,
+            "Sp_Defense": 45,
             "Speed": 95
         },
         "image": `${process.env.API_URL}/assets/pokemons/50.png`
@@ -1088,14 +1088,14 @@ const pokemonsList = [
             "french": "Triopikeur"
         },
         "type": [
-            "Ground"
+            `${process.env.API_URL}/assets/types/Ground.png`
         ],
         "base": {
             "HP": 35,
             "Attack": 100,
             "Defense": 50,
-            "Sp. Attack": 50,
-            "Sp. Defense": 70,
+            "Sp_Attack": 50,
+            "Sp_Defense": 70,
             "Speed": 120
         },
         "image": `${process.env.API_URL}/assets/pokemons/51.png`
@@ -1109,14 +1109,14 @@ const pokemonsList = [
             "french": "Miaouss"
         },
         "type": [
-            "Normal"
+            `${process.env.API_URL}/assets/types/Normal.png`
         ],
         "base": {
             "HP": 40,
             "Attack": 45,
             "Defense": 35,
-            "Sp. Attack": 40,
-            "Sp. Defense": 40,
+            "Sp_Attack": 40,
+            "Sp_Defense": 40,
             "Speed": 90
         },
         "image": `${process.env.API_URL}/assets/pokemons/52.png`
@@ -1130,14 +1130,14 @@ const pokemonsList = [
             "french": "Persian"
         },
         "type": [
-            "Normal"
+            `${process.env.API_URL}/assets/types/Normal.png`
         ],
         "base": {
             "HP": 65,
             "Attack": 70,
             "Defense": 60,
-            "Sp. Attack": 65,
-            "Sp. Defense": 65,
+            "Sp_Attack": 65,
+            "Sp_Defense": 65,
             "Speed": 115
         },
         "image": `${process.env.API_URL}/assets/pokemons/53.png`
@@ -1151,14 +1151,14 @@ const pokemonsList = [
             "french": "Psykokwak"
         },
         "type": [
-            "Water"
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 50,
             "Attack": 52,
             "Defense": 48,
-            "Sp. Attack": 65,
-            "Sp. Defense": 50,
+            "Sp_Attack": 65,
+            "Sp_Defense": 50,
             "Speed": 55
         },
         "image": `${process.env.API_URL}/assets/pokemons/54.png`
@@ -1172,14 +1172,14 @@ const pokemonsList = [
             "french": "Akwakwak"
         },
         "type": [
-            "Water"
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 80,
             "Attack": 82,
             "Defense": 78,
-            "Sp. Attack": 95,
-            "Sp. Defense": 80,
+            "Sp_Attack": 95,
+            "Sp_Defense": 80,
             "Speed": 85
         },
         "image": `${process.env.API_URL}/assets/pokemons/55.png`
@@ -1193,14 +1193,14 @@ const pokemonsList = [
             "french": "Férosinge"
         },
         "type": [
-            "Fighting"
+            `${process.env.API_URL}/assets/types/fighting.png`
         ],
         "base": {
             "HP": 40,
             "Attack": 80,
             "Defense": 35,
-            "Sp. Attack": 35,
-            "Sp. Defense": 45,
+            "Sp_Attack": 35,
+            "Sp_Defense": 45,
             "Speed": 70
         },
         "image": `${process.env.API_URL}/assets/pokemons/56.png`
@@ -1214,14 +1214,14 @@ const pokemonsList = [
             "french": "Colossinge"
         },
         "type": [
-            "Fighting"
+            `${process.env.API_URL}/assets/types/fighting.png`
         ],
         "base": {
             "HP": 65,
             "Attack": 105,
             "Defense": 60,
-            "Sp. Attack": 60,
-            "Sp. Defense": 70,
+            "Sp_Attack": 60,
+            "Sp_Defense": 70,
             "Speed": 95
         },
         "image": `${process.env.API_URL}/assets/pokemons/57.png`
@@ -1235,14 +1235,14 @@ const pokemonsList = [
             "french": "Caninos"
         },
         "type": [
-            "Fire"
+            `${process.env.API_URL}/assets/types/Fire.png`
         ],
         "base": {
             "HP": 55,
             "Attack": 70,
             "Defense": 45,
-            "Sp. Attack": 70,
-            "Sp. Defense": 50,
+            "Sp_Attack": 70,
+            "Sp_Defense": 50,
             "Speed": 60
         },
         "image": `${process.env.API_URL}/assets/pokemons/58.png`
@@ -1256,14 +1256,14 @@ const pokemonsList = [
             "french": "Arcanin"
         },
         "type": [
-            "Fire"
+            `${process.env.API_URL}/assets/types/Fire.png`
         ],
         "base": {
             "HP": 90,
             "Attack": 110,
             "Defense": 80,
-            "Sp. Attack": 100,
-            "Sp. Defense": 80,
+            "Sp_Attack": 100,
+            "Sp_Defense": 80,
             "Speed": 95
         },
         "image": `${process.env.API_URL}/assets/pokemons/59.png`
@@ -1277,14 +1277,14 @@ const pokemonsList = [
             "french": "Ptitard"
         },
         "type": [
-            "Water"
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 40,
             "Attack": 50,
             "Defense": 40,
-            "Sp. Attack": 40,
-            "Sp. Defense": 40,
+            "Sp_Attack": 40,
+            "Sp_Defense": 40,
             "Speed": 90
         },
         "image": `${process.env.API_URL}/assets/pokemons/60.png`
@@ -1298,14 +1298,14 @@ const pokemonsList = [
             "french": "Têtarte"
         },
         "type": [
-            "Water"
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 65,
             "Attack": 65,
             "Defense": 65,
-            "Sp. Attack": 50,
-            "Sp. Defense": 50,
+            "Sp_Attack": 50,
+            "Sp_Defense": 50,
             "Speed": 90
         },
         "image": `${process.env.API_URL}/assets/pokemons/61.png`
@@ -1319,15 +1319,15 @@ const pokemonsList = [
             "french": "Tartard"
         },
         "type": [
-            "Water",
-            "Fighting"
+            `${process.env.API_URL}/assets/types/Water.png`,
+            `${process.env.API_URL}/assets/types/fighting.png`
         ],
         "base": {
             "HP": 90,
             "Attack": 95,
             "Defense": 95,
-            "Sp. Attack": 70,
-            "Sp. Defense": 90,
+            "Sp_Attack": 70,
+            "Sp_Defense": 90,
             "Speed": 70
         },
         "image": `${process.env.API_URL}/assets/pokemons/62.png`
@@ -1341,14 +1341,14 @@ const pokemonsList = [
             "french": "Abra"
         },
         "type": [
-            "Psychic"
+            `${process.env.API_URL}/assets/types/Psychic.png`
         ],
         "base": {
             "HP": 25,
             "Attack": 20,
             "Defense": 15,
-            "Sp. Attack": 105,
-            "Sp. Defense": 55,
+            "Sp_Attack": 105,
+            "Sp_Defense": 55,
             "Speed": 90
         },
         "image": `${process.env.API_URL}/assets/pokemons/63.png`
@@ -1362,14 +1362,14 @@ const pokemonsList = [
             "french": "Kadabra"
         },
         "type": [
-            "Psychic"
+            `${process.env.API_URL}/assets/types/Psychic.png`
         ],
         "base": {
             "HP": 40,
             "Attack": 35,
             "Defense": 30,
-            "Sp. Attack": 120,
-            "Sp. Defense": 70,
+            "Sp_Attack": 120,
+            "Sp_Defense": 70,
             "Speed": 105
         },
         "image": `${process.env.API_URL}/assets/pokemons/64.png`
@@ -1383,14 +1383,14 @@ const pokemonsList = [
             "french": "Alakazam"
         },
         "type": [
-            "Psychic"
+            `${process.env.API_URL}/assets/types/Psychic.png`
         ],
         "base": {
             "HP": 55,
             "Attack": 50,
             "Defense": 45,
-            "Sp. Attack": 135,
-            "Sp. Defense": 95,
+            "Sp_Attack": 135,
+            "Sp_Defense": 95,
             "Speed": 120
         },
         "image": `${process.env.API_URL}/assets/pokemons/65.png`
@@ -1404,14 +1404,14 @@ const pokemonsList = [
             "french": "Machoc"
         },
         "type": [
-            "Fighting"
+            `${process.env.API_URL}/assets/types/fighting.png`
         ],
         "base": {
             "HP": 70,
             "Attack": 80,
             "Defense": 50,
-            "Sp. Attack": 35,
-            "Sp. Defense": 35,
+            "Sp_Attack": 35,
+            "Sp_Defense": 35,
             "Speed": 35
         },
         "image": `${process.env.API_URL}/assets/pokemons/66.png`
@@ -1425,14 +1425,14 @@ const pokemonsList = [
             "french": "Machopeur"
         },
         "type": [
-            "Fighting"
+            `${process.env.API_URL}/assets/types/fighting.png`
         ],
         "base": {
             "HP": 80,
             "Attack": 100,
             "Defense": 70,
-            "Sp. Attack": 50,
-            "Sp. Defense": 60,
+            "Sp_Attack": 50,
+            "Sp_Defense": 60,
             "Speed": 45
         },
         "image": `${process.env.API_URL}/assets/pokemons/67.png`
@@ -1446,14 +1446,14 @@ const pokemonsList = [
             "french": "Mackogneur"
         },
         "type": [
-            "Fighting"
+            `${process.env.API_URL}/assets/types/fighting.png`
         ],
         "base": {
             "HP": 90,
             "Attack": 130,
             "Defense": 80,
-            "Sp. Attack": 65,
-            "Sp. Defense": 85,
+            "Sp_Attack": 65,
+            "Sp_Defense": 85,
             "Speed": 55
         },
         "image": `${process.env.API_URL}/assets/pokemons/68.png`
@@ -1467,15 +1467,15 @@ const pokemonsList = [
             "french": "Chétiflor"
         },
         "type": [
-            "Grass",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Grass.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 50,
             "Attack": 75,
             "Defense": 35,
-            "Sp. Attack": 70,
-            "Sp. Defense": 30,
+            "Sp_Attack": 70,
+            "Sp_Defense": 30,
             "Speed": 40
         },
         "image": `${process.env.API_URL}/assets/pokemons/69.png`
@@ -1489,15 +1489,15 @@ const pokemonsList = [
             "french": "Boustiflor"
         },
         "type": [
-            "Grass",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Grass.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 65,
             "Attack": 90,
             "Defense": 50,
-            "Sp. Attack": 85,
-            "Sp. Defense": 45,
+            "Sp_Attack": 85,
+            "Sp_Defense": 45,
             "Speed": 55
         },
         "image": `${process.env.API_URL}/assets/pokemons/70.png`
@@ -1511,15 +1511,15 @@ const pokemonsList = [
             "french": "Empiflor"
         },
         "type": [
-            "Grass",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Grass.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 80,
             "Attack": 105,
             "Defense": 65,
-            "Sp. Attack": 100,
-            "Sp. Defense": 70,
+            "Sp_Attack": 100,
+            "Sp_Defense": 70,
             "Speed": 70
         },
         "image": `${process.env.API_URL}/assets/pokemons/71.png`
@@ -1533,15 +1533,15 @@ const pokemonsList = [
             "french": "Tentacool"
         },
         "type": [
-            "Water",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Water.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 40,
             "Attack": 40,
             "Defense": 35,
-            "Sp. Attack": 50,
-            "Sp. Defense": 100,
+            "Sp_Attack": 50,
+            "Sp_Defense": 100,
             "Speed": 70
         },
         "image": `${process.env.API_URL}/assets/pokemons/72.png`
@@ -1555,15 +1555,15 @@ const pokemonsList = [
             "french": "Tentacruel"
         },
         "type": [
-            "Water",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Water.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 80,
             "Attack": 70,
             "Defense": 65,
-            "Sp. Attack": 80,
-            "Sp. Defense": 120,
+            "Sp_Attack": 80,
+            "Sp_Defense": 120,
             "Speed": 100
         },
         "image": `${process.env.API_URL}/assets/pokemons/73.png`
@@ -1577,15 +1577,15 @@ const pokemonsList = [
             "french": "Racaillou"
         },
         "type": [
-            "Rock",
-            "Ground"
+            `${process.env.API_URL}/assets/types/rock.png`,
+            `${process.env.API_URL}/assets/types/Ground.png`
         ],
         "base": {
             "HP": 40,
             "Attack": 80,
             "Defense": 100,
-            "Sp. Attack": 30,
-            "Sp. Defense": 30,
+            "Sp_Attack": 30,
+            "Sp_Defense": 30,
             "Speed": 20
         },
         "image": `${process.env.API_URL}/assets/pokemons/74.png`
@@ -1599,15 +1599,15 @@ const pokemonsList = [
             "french": "Gravalanch"
         },
         "type": [
-            "Rock",
-            "Ground"
+            `${process.env.API_URL}/assets/types/rock.png`,
+            `${process.env.API_URL}/assets/types/Ground.png`
         ],
         "base": {
             "HP": 55,
             "Attack": 95,
             "Defense": 115,
-            "Sp. Attack": 45,
-            "Sp. Defense": 45,
+            "Sp_Attack": 45,
+            "Sp_Defense": 45,
             "Speed": 35
         },
         "image": `${process.env.API_URL}/assets/pokemons/75.png`
@@ -1621,15 +1621,15 @@ const pokemonsList = [
             "french": "Grolem"
         },
         "type": [
-            "Rock",
-            "Ground"
+            `${process.env.API_URL}/assets/types/rock.png`,
+            `${process.env.API_URL}/assets/types/Ground.png`
         ],
         "base": {
             "HP": 80,
             "Attack": 120,
             "Defense": 130,
-            "Sp. Attack": 55,
-            "Sp. Defense": 65,
+            "Sp_Attack": 55,
+            "Sp_Defense": 65,
             "Speed": 45
         },
         "image": `${process.env.API_URL}/assets/pokemons/76.png`
@@ -1643,14 +1643,14 @@ const pokemonsList = [
             "french": "Ponyta"
         },
         "type": [
-            "Fire"
+            `${process.env.API_URL}/assets/types/Fire.png`
         ],
         "base": {
             "HP": 50,
             "Attack": 85,
             "Defense": 55,
-            "Sp. Attack": 65,
-            "Sp. Defense": 65,
+            "Sp_Attack": 65,
+            "Sp_Defense": 65,
             "Speed": 90
         },
         "image": `${process.env.API_URL}/assets/pokemons/77.png`
@@ -1664,14 +1664,14 @@ const pokemonsList = [
             "french": "Galopa"
         },
         "type": [
-            "Fire"
+            `${process.env.API_URL}/assets/types/Fire.png`
         ],
         "base": {
             "HP": 65,
             "Attack": 100,
             "Defense": 70,
-            "Sp. Attack": 80,
-            "Sp. Defense": 80,
+            "Sp_Attack": 80,
+            "Sp_Defense": 80,
             "Speed": 105
         },
         "image": `${process.env.API_URL}/assets/pokemons/78.png`
@@ -1685,15 +1685,15 @@ const pokemonsList = [
             "french": "Ramoloss"
         },
         "type": [
-            "Water",
-            "Psychic"
+            `${process.env.API_URL}/assets/types/Water.png`,
+            `${process.env.API_URL}/assets/types/Psychic.png`
         ],
         "base": {
             "HP": 90,
             "Attack": 65,
             "Defense": 65,
-            "Sp. Attack": 40,
-            "Sp. Defense": 40,
+            "Sp_Attack": 40,
+            "Sp_Defense": 40,
             "Speed": 15
         },
         "image": `${process.env.API_URL}/assets/pokemons/79.png`
@@ -1707,15 +1707,15 @@ const pokemonsList = [
             "french": "Flagadoss"
         },
         "type": [
-            "Water",
-            "Psychic"
+            `${process.env.API_URL}/assets/types/Water.png`,
+            `${process.env.API_URL}/assets/types/Psychic.png`
         ],
         "base": {
             "HP": 95,
             "Attack": 75,
             "Defense": 110,
-            "Sp. Attack": 100,
-            "Sp. Defense": 80,
+            "Sp_Attack": 100,
+            "Sp_Defense": 80,
             "Speed": 30
         },
         "image": `${process.env.API_URL}/assets/pokemons/80.png`
@@ -1729,15 +1729,15 @@ const pokemonsList = [
             "french": "Magnéti"
         },
         "type": [
-            "Electric",
-            "Steel"
+            `${process.env.API_URL}/assets/types/Electric.png`,
+            `${process.env.API_URL}/assets/types/Steel.png`
         ],
         "base": {
             "HP": 25,
             "Attack": 35,
             "Defense": 70,
-            "Sp. Attack": 95,
-            "Sp. Defense": 55,
+            "Sp_Attack": 95,
+            "Sp_Defense": 55,
             "Speed": 45
         },
         "image": `${process.env.API_URL}/assets/pokemons/81.png`
@@ -1751,15 +1751,15 @@ const pokemonsList = [
             "french": "Magnéton"
         },
         "type": [
-            "Electric",
-            "Steel"
+            `${process.env.API_URL}/assets/types/Electric.png`,
+            `${process.env.API_URL}/assets/types/Steel.png`
         ],
         "base": {
             "HP": 50,
             "Attack": 60,
             "Defense": 95,
-            "Sp. Attack": 120,
-            "Sp. Defense": 70,
+            "Sp_Attack": 120,
+            "Sp_Defense": 70,
             "Speed": 70
         },
         "image": `${process.env.API_URL}/assets/pokemons/82.png`
@@ -1773,15 +1773,15 @@ const pokemonsList = [
             "french": "Canarticho"
         },
         "type": [
-            "Normal",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Normal.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`
         ],
         "base": {
             "HP": 52,
             "Attack": 90,
             "Defense": 55,
-            "Sp. Attack": 58,
-            "Sp. Defense": 62,
+            "Sp_Attack": 58,
+            "Sp_Defense": 62,
             "Speed": 60
         },
         "image": `${process.env.API_URL}/assets/pokemons/83.png`
@@ -1795,15 +1795,15 @@ const pokemonsList = [
             "french": "Doduo"
         },
         "type": [
-            "Normal",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Normal.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`
         ],
         "base": {
             "HP": 35,
             "Attack": 85,
             "Defense": 45,
-            "Sp. Attack": 35,
-            "Sp. Defense": 35,
+            "Sp_Attack": 35,
+            "Sp_Defense": 35,
             "Speed": 75
         },
         "image": `${process.env.API_URL}/assets/pokemons/84.png`
@@ -1817,15 +1817,15 @@ const pokemonsList = [
             "french": "Dodrio"
         },
         "type": [
-            "Normal",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Normal.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`
         ],
         "base": {
             "HP": 60,
             "Attack": 110,
             "Defense": 70,
-            "Sp. Attack": 60,
-            "Sp. Defense": 60,
+            "Sp_Attack": 60,
+            "Sp_Defense": 60,
             "Speed": 110
         },
         "image": `${process.env.API_URL}/assets/pokemons/85.png`
@@ -1839,14 +1839,14 @@ const pokemonsList = [
             "french": "Otaria"
         },
         "type": [
-            "Water"
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 65,
             "Attack": 45,
             "Defense": 55,
-            "Sp. Attack": 45,
-            "Sp. Defense": 70,
+            "Sp_Attack": 45,
+            "Sp_Defense": 70,
             "Speed": 45
         },
         "image": `${process.env.API_URL}/assets/pokemons/86.png`
@@ -1860,15 +1860,15 @@ const pokemonsList = [
             "french": "Lamantine"
         },
         "type": [
-            "Water",
-            "Ice"
+            `${process.env.API_URL}/assets/types/Water.png`,
+            `${process.env.API_URL}/assets/types/Ice.png`
         ],
         "base": {
             "HP": 90,
             "Attack": 70,
             "Defense": 80,
-            "Sp. Attack": 70,
-            "Sp. Defense": 95,
+            "Sp_Attack": 70,
+            "Sp_Defense": 95,
             "Speed": 70
         },
         "image": `${process.env.API_URL}/assets/pokemons/87.png`
@@ -1882,14 +1882,14 @@ const pokemonsList = [
             "french": "Tadmorv"
         },
         "type": [
-            "Poison"
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 80,
             "Attack": 80,
             "Defense": 50,
-            "Sp. Attack": 40,
-            "Sp. Defense": 50,
+            "Sp_Attack": 40,
+            "Sp_Defense": 50,
             "Speed": 25
         },
         "image": `${process.env.API_URL}/assets/pokemons/88.png`
@@ -1903,14 +1903,14 @@ const pokemonsList = [
             "french": "Grotadmorv"
         },
         "type": [
-            "Poison"
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 105,
             "Attack": 105,
             "Defense": 75,
-            "Sp. Attack": 65,
-            "Sp. Defense": 100,
+            "Sp_Attack": 65,
+            "Sp_Defense": 100,
             "Speed": 50
         },
         "image": `${process.env.API_URL}/assets/pokemons/89.png`
@@ -1924,14 +1924,14 @@ const pokemonsList = [
             "french": "Kokiyas"
         },
         "type": [
-            "Water"
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 30,
             "Attack": 65,
             "Defense": 100,
-            "Sp. Attack": 45,
-            "Sp. Defense": 25,
+            "Sp_Attack": 45,
+            "Sp_Defense": 25,
             "Speed": 40
         },
         "image": `${process.env.API_URL}/assets/pokemons/90.png`
@@ -1945,15 +1945,15 @@ const pokemonsList = [
             "french": "Crustabri"
         },
         "type": [
-            "Water",
-            "Ice"
+            `${process.env.API_URL}/assets/types/Water.png`,
+            `${process.env.API_URL}/assets/types/Ice.png`
         ],
         "base": {
             "HP": 50,
             "Attack": 95,
             "Defense": 180,
-            "Sp. Attack": 85,
-            "Sp. Defense": 45,
+            "Sp_Attack": 85,
+            "Sp_Defense": 45,
             "Speed": 70
         },
         "image": `${process.env.API_URL}/assets/pokemons/91.png`
@@ -1967,15 +1967,15 @@ const pokemonsList = [
             "french": "Fantominus"
         },
         "type": [
-            "Ghost",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Ghost.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 30,
             "Attack": 35,
             "Defense": 30,
-            "Sp. Attack": 100,
-            "Sp. Defense": 35,
+            "Sp_Attack": 100,
+            "Sp_Defense": 35,
             "Speed": 80
         },
         "image": `${process.env.API_URL}/assets/pokemons/92.png`
@@ -1989,15 +1989,15 @@ const pokemonsList = [
             "french": "Spectrum"
         },
         "type": [
-            "Ghost",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Ghost.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 45,
             "Attack": 50,
             "Defense": 45,
-            "Sp. Attack": 115,
-            "Sp. Defense": 55,
+            "Sp_Attack": 115,
+            "Sp_Defense": 55,
             "Speed": 95
         },
         "image": `${process.env.API_URL}/assets/pokemons/93.png`
@@ -2011,15 +2011,15 @@ const pokemonsList = [
             "french": "Ectoplasma"
         },
         "type": [
-            "Ghost",
-            "Poison"
+            `${process.env.API_URL}/assets/types/Ghost.png`,
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 60,
             "Attack": 65,
             "Defense": 60,
-            "Sp. Attack": 130,
-            "Sp. Defense": 75,
+            "Sp_Attack": 130,
+            "Sp_Defense": 75,
             "Speed": 110
         },
         "image": `${process.env.API_URL}/assets/pokemons/94.png`
@@ -2033,15 +2033,15 @@ const pokemonsList = [
             "french": "Onix"
         },
         "type": [
-            "Rock",
-            "Ground"
+            `${process.env.API_URL}/assets/types/rock.png`,
+            `${process.env.API_URL}/assets/types/Ground.png`
         ],
         "base": {
             "HP": 35,
             "Attack": 45,
             "Defense": 160,
-            "Sp. Attack": 30,
-            "Sp. Defense": 45,
+            "Sp_Attack": 30,
+            "Sp_Defense": 45,
             "Speed": 70
         },
         "image": `${process.env.API_URL}/assets/pokemons/95.png`
@@ -2055,14 +2055,14 @@ const pokemonsList = [
             "french": "Soporifik"
         },
         "type": [
-            "Psychic"
+            `${process.env.API_URL}/assets/types/Psychic.png`
         ],
         "base": {
             "HP": 60,
             "Attack": 48,
             "Defense": 45,
-            "Sp. Attack": 43,
-            "Sp. Defense": 90,
+            "Sp_Attack": 43,
+            "Sp_Defense": 90,
             "Speed": 42
         },
         "image": `${process.env.API_URL}/assets/pokemons/96.png`
@@ -2076,14 +2076,14 @@ const pokemonsList = [
             "french": "Hypnomade"
         },
         "type": [
-            "Psychic"
+            `${process.env.API_URL}/assets/types/Psychic.png`
         ],
         "base": {
             "HP": 85,
             "Attack": 73,
             "Defense": 70,
-            "Sp. Attack": 73,
-            "Sp. Defense": 115,
+            "Sp_Attack": 73,
+            "Sp_Defense": 115,
             "Speed": 67
         },
         "image": `${process.env.API_URL}/assets/pokemons/97.png`
@@ -2097,14 +2097,14 @@ const pokemonsList = [
             "french": "Krabby"
         },
         "type": [
-            "Water"
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 30,
             "Attack": 105,
             "Defense": 90,
-            "Sp. Attack": 25,
-            "Sp. Defense": 25,
+            "Sp_Attack": 25,
+            "Sp_Defense": 25,
             "Speed": 50
         },
         "image": `${process.env.API_URL}/assets/pokemons/98.png`
@@ -2118,14 +2118,14 @@ const pokemonsList = [
             "french": "Krabboss"
         },
         "type": [
-            "Water"
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 55,
             "Attack": 130,
             "Defense": 115,
-            "Sp. Attack": 50,
-            "Sp. Defense": 50,
+            "Sp_Attack": 50,
+            "Sp_Defense": 50,
             "Speed": 75
         },
         "image": `${process.env.API_URL}/assets/pokemons/99.png`
@@ -2139,14 +2139,14 @@ const pokemonsList = [
             "french": "Voltorbe"
         },
         "type": [
-            "Electric"
+            `${process.env.API_URL}/assets/types/Electric.png`
         ],
         "base": {
             "HP": 40,
             "Attack": 30,
             "Defense": 50,
-            "Sp. Attack": 55,
-            "Sp. Defense": 55,
+            "Sp_Attack": 55,
+            "Sp_Defense": 55,
             "Speed": 100
         },
         "image": `${process.env.API_URL}/assets/pokemons/100.png`
@@ -2160,14 +2160,14 @@ const pokemonsList = [
             "french": "Électrode"
         },
         "type": [
-            "Electric"
+            `${process.env.API_URL}/assets/types/Electric.png`
         ],
         "base": {
             "HP": 60,
             "Attack": 50,
             "Defense": 70,
-            "Sp. Attack": 80,
-            "Sp. Defense": 80,
+            "Sp_Attack": 80,
+            "Sp_Defense": 80,
             "Speed": 150
         },
         "image": `${process.env.API_URL}/assets/pokemons/101.png`
@@ -2181,15 +2181,15 @@ const pokemonsList = [
             "french": "Noeunoeuf"
         },
         "type": [
-            "Grass",
-            "Psychic"
+            `${process.env.API_URL}/assets/types/Grass.png`,
+            `${process.env.API_URL}/assets/types/Psychic.png`
         ],
         "base": {
             "HP": 60,
             "Attack": 40,
             "Defense": 80,
-            "Sp. Attack": 60,
-            "Sp. Defense": 45,
+            "Sp_Attack": 60,
+            "Sp_Defense": 45,
             "Speed": 40
         },
         "image": `${process.env.API_URL}/assets/pokemons/102.png`
@@ -2203,15 +2203,15 @@ const pokemonsList = [
             "french": "Noadkoko"
         },
         "type": [
-            "Grass",
-            "Psychic"
+            `${process.env.API_URL}/assets/types/Grass.png`,
+            `${process.env.API_URL}/assets/types/Psychic.png`
         ],
         "base": {
             "HP": 95,
             "Attack": 95,
             "Defense": 85,
-            "Sp. Attack": 125,
-            "Sp. Defense": 75,
+            "Sp_Attack": 125,
+            "Sp_Defense": 75,
             "Speed": 55
         },
         "image": `${process.env.API_URL}/assets/pokemons/103.png`
@@ -2225,14 +2225,14 @@ const pokemonsList = [
             "french": "Osselait"
         },
         "type": [
-            "Ground"
+            `${process.env.API_URL}/assets/types/Ground.png`
         ],
         "base": {
             "HP": 50,
             "Attack": 50,
             "Defense": 95,
-            "Sp. Attack": 40,
-            "Sp. Defense": 50,
+            "Sp_Attack": 40,
+            "Sp_Defense": 50,
             "Speed": 35
         },
         "image": `${process.env.API_URL}/assets/pokemons/104.png`
@@ -2246,14 +2246,14 @@ const pokemonsList = [
             "french": "Ossatueur"
         },
         "type": [
-            "Ground"
+            `${process.env.API_URL}/assets/types/Ground.png`
         ],
         "base": {
             "HP": 60,
             "Attack": 80,
             "Defense": 110,
-            "Sp. Attack": 50,
-            "Sp. Defense": 80,
+            "Sp_Attack": 50,
+            "Sp_Defense": 80,
             "Speed": 45
         },
         "image": `${process.env.API_URL}/assets/pokemons/105.png`
@@ -2267,14 +2267,14 @@ const pokemonsList = [
             "french": "Kicklee"
         },
         "type": [
-            "Fighting"
+            `${process.env.API_URL}/assets/types/fighting.png`
         ],
         "base": {
             "HP": 50,
             "Attack": 120,
             "Defense": 53,
-            "Sp. Attack": 35,
-            "Sp. Defense": 110,
+            "Sp_Attack": 35,
+            "Sp_Defense": 110,
             "Speed": 87
         },
         "image": `${process.env.API_URL}/assets/pokemons/106.png`
@@ -2288,14 +2288,14 @@ const pokemonsList = [
             "french": "Tygnon"
         },
         "type": [
-            "Fighting"
+            `${process.env.API_URL}/assets/types/fighting.png`
         ],
         "base": {
             "HP": 50,
             "Attack": 105,
             "Defense": 79,
-            "Sp. Attack": 35,
-            "Sp. Defense": 110,
+            "Sp_Attack": 35,
+            "Sp_Defense": 110,
             "Speed": 76
         },
         "image": `${process.env.API_URL}/assets/pokemons/107.png`
@@ -2309,14 +2309,14 @@ const pokemonsList = [
             "french": "Excelangue"
         },
         "type": [
-            "Normal"
+            `${process.env.API_URL}/assets/types/Normal.png`
         ],
         "base": {
             "HP": 90,
             "Attack": 55,
             "Defense": 75,
-            "Sp. Attack": 60,
-            "Sp. Defense": 75,
+            "Sp_Attack": 60,
+            "Sp_Defense": 75,
             "Speed": 30
         },
         "image": `${process.env.API_URL}/assets/pokemons/108.png`
@@ -2330,14 +2330,14 @@ const pokemonsList = [
             "french": "Smogo"
         },
         "type": [
-            "Poison"
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 40,
             "Attack": 65,
             "Defense": 95,
-            "Sp. Attack": 60,
-            "Sp. Defense": 45,
+            "Sp_Attack": 60,
+            "Sp_Defense": 45,
             "Speed": 35
         },
         "image": `${process.env.API_URL}/assets/pokemons/109.png`
@@ -2351,14 +2351,14 @@ const pokemonsList = [
             "french": "Smogogo"
         },
         "type": [
-            "Poison"
+            `${process.env.API_URL}/assets/types/Poison.png`
         ],
         "base": {
             "HP": 65,
             "Attack": 90,
             "Defense": 120,
-            "Sp. Attack": 85,
-            "Sp. Defense": 70,
+            "Sp_Attack": 85,
+            "Sp_Defense": 70,
             "Speed": 60
         },
         "image": `${process.env.API_URL}/assets/pokemons/110.png`
@@ -2372,15 +2372,15 @@ const pokemonsList = [
             "french": "Rhinocorne"
         },
         "type": [
-            "Ground",
-            "Rock"
+            `${process.env.API_URL}/assets/types/Ground.png`,
+            `${process.env.API_URL}/assets/types/rock.png`
         ],
         "base": {
             "HP": 80,
             "Attack": 85,
             "Defense": 95,
-            "Sp. Attack": 30,
-            "Sp. Defense": 30,
+            "Sp_Attack": 30,
+            "Sp_Defense": 30,
             "Speed": 25
         },
         "image": `${process.env.API_URL}/assets/pokemons/111.png`
@@ -2394,15 +2394,15 @@ const pokemonsList = [
             "french": "Rhinoféros"
         },
         "type": [
-            "Ground",
-            "Rock"
+            `${process.env.API_URL}/assets/types/Ground.png`,
+            `${process.env.API_URL}/assets/types/rock.png`
         ],
         "base": {
             "HP": 105,
             "Attack": 130,
             "Defense": 120,
-            "Sp. Attack": 45,
-            "Sp. Defense": 45,
+            "Sp_Attack": 45,
+            "Sp_Defense": 45,
             "Speed": 40
         },
         "image": `${process.env.API_URL}/assets/pokemons/112.png`
@@ -2416,14 +2416,14 @@ const pokemonsList = [
             "french": "Leveinard"
         },
         "type": [
-            "Normal"
+            `${process.env.API_URL}/assets/types/Normal.png`
         ],
         "base": {
             "HP": 250,
             "Attack": 5,
             "Defense": 5,
-            "Sp. Attack": 35,
-            "Sp. Defense": 105,
+            "Sp_Attack": 35,
+            "Sp_Defense": 105,
             "Speed": 50
         },
         "image": `${process.env.API_URL}/assets/pokemons/113.png`
@@ -2437,14 +2437,14 @@ const pokemonsList = [
             "french": "Saquedeneu"
         },
         "type": [
-            "Grass"
+            `${process.env.API_URL}/assets/types/Grass.png`
         ],
         "base": {
             "HP": 65,
             "Attack": 55,
             "Defense": 115,
-            "Sp. Attack": 100,
-            "Sp. Defense": 40,
+            "Sp_Attack": 100,
+            "Sp_Defense": 40,
             "Speed": 60
         },
         "image": `${process.env.API_URL}/assets/pokemons/114.png`
@@ -2458,14 +2458,14 @@ const pokemonsList = [
             "french": "Kangourex"
         },
         "type": [
-            "Normal"
+            `${process.env.API_URL}/assets/types/Normal.png`
         ],
         "base": {
             "HP": 105,
             "Attack": 95,
             "Defense": 80,
-            "Sp. Attack": 40,
-            "Sp. Defense": 80,
+            "Sp_Attack": 40,
+            "Sp_Defense": 80,
             "Speed": 90
         },
         "image": `${process.env.API_URL}/assets/pokemons/115.png`
@@ -2479,14 +2479,14 @@ const pokemonsList = [
             "french": "Hypotrempe"
         },
         "type": [
-            "Water"
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 30,
             "Attack": 40,
             "Defense": 70,
-            "Sp. Attack": 70,
-            "Sp. Defense": 25,
+            "Sp_Attack": 70,
+            "Sp_Defense": 25,
             "Speed": 60
         },
         "image": `${process.env.API_URL}/assets/pokemons/116.png`
@@ -2500,14 +2500,14 @@ const pokemonsList = [
             "french": "Hypocéan"
         },
         "type": [
-            "Water"
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 55,
             "Attack": 65,
             "Defense": 95,
-            "Sp. Attack": 95,
-            "Sp. Defense": 45,
+            "Sp_Attack": 95,
+            "Sp_Defense": 45,
             "Speed": 85
         },
         "image": `${process.env.API_URL}/assets/pokemons/117.png`
@@ -2521,14 +2521,14 @@ const pokemonsList = [
             "french": "Poissirène"
         },
         "type": [
-            "Water"
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 45,
             "Attack": 67,
             "Defense": 60,
-            "Sp. Attack": 35,
-            "Sp. Defense": 50,
+            "Sp_Attack": 35,
+            "Sp_Defense": 50,
             "Speed": 63
         },
         "image": `${process.env.API_URL}/assets/pokemons/118.png`
@@ -2542,14 +2542,14 @@ const pokemonsList = [
             "french": "Poissoroy"
         },
         "type": [
-            "Water"
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 80,
             "Attack": 92,
             "Defense": 65,
-            "Sp. Attack": 65,
-            "Sp. Defense": 80,
+            "Sp_Attack": 65,
+            "Sp_Defense": 80,
             "Speed": 68
         },
         "image": `${process.env.API_URL}/assets/pokemons/119.png`
@@ -2563,14 +2563,14 @@ const pokemonsList = [
             "french": "Stari"
         },
         "type": [
-            "Water"
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 30,
             "Attack": 45,
             "Defense": 55,
-            "Sp. Attack": 70,
-            "Sp. Defense": 55,
+            "Sp_Attack": 70,
+            "Sp_Defense": 55,
             "Speed": 85
         },
         "image": `${process.env.API_URL}/assets/pokemons/120.png`
@@ -2584,15 +2584,15 @@ const pokemonsList = [
             "french": "Staross"
         },
         "type": [
-            "Water",
-            "Psychic"
+            `${process.env.API_URL}/assets/types/Water.png`,
+            `${process.env.API_URL}/assets/types/Psychic.png`
         ],
         "base": {
             "HP": 60,
             "Attack": 75,
             "Defense": 85,
-            "Sp. Attack": 100,
-            "Sp. Defense": 85,
+            "Sp_Attack": 100,
+            "Sp_Defense": 85,
             "Speed": 115
         },
         "image": `${process.env.API_URL}/assets/pokemons/121.png`
@@ -2606,15 +2606,15 @@ const pokemonsList = [
             "french": "M. Mime"
         },
         "type": [
-            "Psychic",
-            "Fairy"
+            `${process.env.API_URL}/assets/types/Psychic.png`,
+            `${process.env.API_URL}/assets/types/Fairy.png`
         ],
         "base": {
             "HP": 40,
             "Attack": 45,
             "Defense": 65,
-            "Sp. Attack": 100,
-            "Sp. Defense": 120,
+            "Sp_Attack": 100,
+            "Sp_Defense": 120,
             "Speed": 90
         },
         "image": `${process.env.API_URL}/assets/pokemons/122.png`
@@ -2628,15 +2628,15 @@ const pokemonsList = [
             "french": "Insécateur"
         },
         "type": [
-            "Bug",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Bug.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`
         ],
         "base": {
             "HP": 70,
             "Attack": 110,
             "Defense": 80,
-            "Sp. Attack": 55,
-            "Sp. Defense": 80,
+            "Sp_Attack": 55,
+            "Sp_Defense": 80,
             "Speed": 105
         },
         "image": `${process.env.API_URL}/assets/pokemons/123.png`
@@ -2650,15 +2650,15 @@ const pokemonsList = [
             "french": "Lippoutou"
         },
         "type": [
-            "Ice",
-            "Psychic"
+            `${process.env.API_URL}/assets/types/Ice.png`,
+            `${process.env.API_URL}/assets/types/Psychic.png`
         ],
         "base": {
             "HP": 65,
             "Attack": 50,
             "Defense": 35,
-            "Sp. Attack": 115,
-            "Sp. Defense": 95,
+            "Sp_Attack": 115,
+            "Sp_Defense": 95,
             "Speed": 95
         },
         "image": `${process.env.API_URL}/assets/pokemons/124.png`
@@ -2672,14 +2672,14 @@ const pokemonsList = [
             "french": "Élektek"
         },
         "type": [
-            "Electric"
+            `${process.env.API_URL}/assets/types/Electric.png`
         ],
         "base": {
             "HP": 65,
             "Attack": 83,
             "Defense": 57,
-            "Sp. Attack": 95,
-            "Sp. Defense": 85,
+            "Sp_Attack": 95,
+            "Sp_Defense": 85,
             "Speed": 105
         },
         "image": `${process.env.API_URL}/assets/pokemons/125.png`
@@ -2693,14 +2693,14 @@ const pokemonsList = [
             "french": "Magmar"
         },
         "type": [
-            "Fire"
+            `${process.env.API_URL}/assets/types/Fire.png`
         ],
         "base": {
             "HP": 65,
             "Attack": 95,
             "Defense": 57,
-            "Sp. Attack": 100,
-            "Sp. Defense": 85,
+            "Sp_Attack": 100,
+            "Sp_Defense": 85,
             "Speed": 93
         },
         "image": `${process.env.API_URL}/assets/pokemons/126.png`
@@ -2714,14 +2714,14 @@ const pokemonsList = [
             "french": "Scarabrute"
         },
         "type": [
-            "Bug"
+            `${process.env.API_URL}/assets/types/Bug.png`
         ],
         "base": {
             "HP": 65,
             "Attack": 125,
             "Defense": 100,
-            "Sp. Attack": 55,
-            "Sp. Defense": 70,
+            "Sp_Attack": 55,
+            "Sp_Defense": 70,
             "Speed": 85
         },
         "image": `${process.env.API_URL}/assets/pokemons/127.png`
@@ -2735,14 +2735,14 @@ const pokemonsList = [
             "french": "Tauros"
         },
         "type": [
-            "Normal"
+            `${process.env.API_URL}/assets/types/Normal.png`
         ],
         "base": {
             "HP": 75,
             "Attack": 100,
             "Defense": 95,
-            "Sp. Attack": 40,
-            "Sp. Defense": 70,
+            "Sp_Attack": 40,
+            "Sp_Defense": 70,
             "Speed": 110
         },
         "image": `${process.env.API_URL}/assets/pokemons/128.png`
@@ -2756,14 +2756,14 @@ const pokemonsList = [
             "french": "Magicarpe"
         },
         "type": [
-            "Water"
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 20,
             "Attack": 10,
             "Defense": 55,
-            "Sp. Attack": 15,
-            "Sp. Defense": 20,
+            "Sp_Attack": 15,
+            "Sp_Defense": 20,
             "Speed": 80
         },
         "image": `${process.env.API_URL}/assets/pokemons/129.png`
@@ -2777,15 +2777,15 @@ const pokemonsList = [
             "french": "Léviator"
         },
         "type": [
-            "Water",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Water.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`
         ],
         "base": {
             "HP": 95,
             "Attack": 125,
             "Defense": 79,
-            "Sp. Attack": 60,
-            "Sp. Defense": 100,
+            "Sp_Attack": 60,
+            "Sp_Defense": 100,
             "Speed": 81
         },
         "image": `${process.env.API_URL}/assets/pokemons/130.png`
@@ -2799,15 +2799,15 @@ const pokemonsList = [
             "french": "Lokhlass"
         },
         "type": [
-            "Water",
-            "Ice"
+            `${process.env.API_URL}/assets/types/Water.png`,
+            `${process.env.API_URL}/assets/types/Ice.png`
         ],
         "base": {
             "HP": 130,
             "Attack": 85,
             "Defense": 80,
-            "Sp. Attack": 85,
-            "Sp. Defense": 95,
+            "Sp_Attack": 85,
+            "Sp_Defense": 95,
             "Speed": 60
         },
         "image": `${process.env.API_URL}/assets/pokemons/131.png`
@@ -2821,14 +2821,14 @@ const pokemonsList = [
             "french": "Métamorph"
         },
         "type": [
-            "Normal"
+            `${process.env.API_URL}/assets/types/Normal.png`
         ],
         "base": {
             "HP": 48,
             "Attack": 48,
             "Defense": 48,
-            "Sp. Attack": 48,
-            "Sp. Defense": 48,
+            "Sp_Attack": 48,
+            "Sp_Defense": 48,
             "Speed": 48
         },
         "image": `${process.env.API_URL}/assets/pokemons/132.png`
@@ -2842,14 +2842,14 @@ const pokemonsList = [
             "french": "Évoli"
         },
         "type": [
-            "Normal"
+            `${process.env.API_URL}/assets/types/Normal.png`
         ],
         "base": {
             "HP": 55,
             "Attack": 55,
             "Defense": 50,
-            "Sp. Attack": 45,
-            "Sp. Defense": 65,
+            "Sp_Attack": 45,
+            "Sp_Defense": 65,
             "Speed": 55
         },
         "image": `${process.env.API_URL}/assets/pokemons/133.png`
@@ -2863,14 +2863,14 @@ const pokemonsList = [
             "french": "Aquali"
         },
         "type": [
-            "Water"
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 130,
             "Attack": 65,
             "Defense": 60,
-            "Sp. Attack": 110,
-            "Sp. Defense": 95,
+            "Sp_Attack": 110,
+            "Sp_Defense": 95,
             "Speed": 65
         },
         "image": `${process.env.API_URL}/assets/pokemons/134.png`
@@ -2884,14 +2884,14 @@ const pokemonsList = [
             "french": "Voltali"
         },
         "type": [
-            "Electric"
+            `${process.env.API_URL}/assets/types/Electric.png`
         ],
         "base": {
             "HP": 65,
             "Attack": 65,
             "Defense": 60,
-            "Sp. Attack": 110,
-            "Sp. Defense": 95,
+            "Sp_Attack": 110,
+            "Sp_Defense": 95,
             "Speed": 130
         },
         "image": `${process.env.API_URL}/assets/pokemons/135.png`
@@ -2905,14 +2905,14 @@ const pokemonsList = [
             "french": "Pyroli"
         },
         "type": [
-            "Fire"
+            `${process.env.API_URL}/assets/types/Fire.png`
         ],
         "base": {
             "HP": 65,
             "Attack": 130,
             "Defense": 60,
-            "Sp. Attack": 95,
-            "Sp. Defense": 110,
+            "Sp_Attack": 95,
+            "Sp_Defense": 110,
             "Speed": 65
         },
         "image": `${process.env.API_URL}/assets/pokemons/136.png`
@@ -2926,14 +2926,14 @@ const pokemonsList = [
             "french": "Porygon"
         },
         "type": [
-            "Normal"
+            `${process.env.API_URL}/assets/types/Normal.png`
         ],
         "base": {
             "HP": 65,
             "Attack": 60,
             "Defense": 70,
-            "Sp. Attack": 85,
-            "Sp. Defense": 75,
+            "Sp_Attack": 85,
+            "Sp_Defense": 75,
             "Speed": 40
         },
         "image": `${process.env.API_URL}/assets/pokemons/137.png`
@@ -2947,15 +2947,15 @@ const pokemonsList = [
             "french": "Amonita"
         },
         "type": [
-            "Rock",
-            "Water"
+            `${process.env.API_URL}/assets/types/Rock.png`,
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 35,
             "Attack": 40,
             "Defense": 100,
-            "Sp. Attack": 90,
-            "Sp. Defense": 55,
+            "Sp_Attack": 90,
+            "Sp_Defense": 55,
             "Speed": 35
         },
         "image": `${process.env.API_URL}/assets/pokemons/138.png`
@@ -2969,15 +2969,15 @@ const pokemonsList = [
             "french": "Amonistar"
         },
         "type": [
-            "Rock",
-            "Water"
+            `${process.env.API_URL}/assets/types/Rock.png`,
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 70,
             "Attack": 60,
             "Defense": 125,
-            "Sp. Attack": 115,
-            "Sp. Defense": 70,
+            "Sp_Attack": 115,
+            "Sp_Defense": 70,
             "Speed": 55
         },
         "image": `${process.env.API_URL}/assets/pokemons/139.png`
@@ -2991,15 +2991,15 @@ const pokemonsList = [
             "french": "Kabuto"
         },
         "type": [
-            "Rock",
-            "Water"
+            `${process.env.API_URL}/assets/types/Rock.png`,
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 30,
             "Attack": 80,
             "Defense": 90,
-            "Sp. Attack": 55,
-            "Sp. Defense": 45,
+            "Sp_Attack": 55,
+            "Sp_Defense": 45,
             "Speed": 55
         },
         "image": `${process.env.API_URL}/assets/pokemons/140.png`
@@ -3013,15 +3013,15 @@ const pokemonsList = [
             "french": "Kabutops"
         },
         "type": [
-            "Rock",
-            "Water"
+            `${process.env.API_URL}/assets/types/Rock.png`,
+            `${process.env.API_URL}/assets/types/Water.png`
         ],
         "base": {
             "HP": 60,
             "Attack": 115,
             "Defense": 105,
-            "Sp. Attack": 65,
-            "Sp. Defense": 70,
+            "Sp_Attack": 65,
+            "Sp_Defense": 70,
             "Speed": 80
         },
         "image": `${process.env.API_URL}/assets/pokemons/141.png`
@@ -3035,15 +3035,15 @@ const pokemonsList = [
             "french": "Ptéra"
         },
         "type": [
-            "Rock",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Rock.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`,
         ],
         "base": {
             "HP": 80,
             "Attack": 105,
             "Defense": 65,
-            "Sp. Attack": 60,
-            "Sp. Defense": 75,
+            "Sp_Attack": 60,
+            "Sp_Defense": 75,
             "Speed": 130
         },
         "image": `${process.env.API_URL}/assets/pokemons/142.png`
@@ -3057,14 +3057,14 @@ const pokemonsList = [
             "french": "Ronflex"
         },
         "type": [
-            "Normal"
+            `${process.env.API_URL}/assets/types/Normal.png`
         ],
         "base": {
             "HP": 160,
             "Attack": 110,
             "Defense": 65,
-            "Sp. Attack": 65,
-            "Sp. Defense": 110,
+            "Sp_Attack": 65,
+            "Sp_Defense": 110,
             "Speed": 30
         },
         "image": `${process.env.API_URL}/assets/pokemons/143.png`
@@ -3078,15 +3078,15 @@ const pokemonsList = [
             "french": "Artikodin"
         },
         "type": [
-            "Ice",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Ice.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`
         ],
         "base": {
             "HP": 90,
             "Attack": 85,
             "Defense": 100,
-            "Sp. Attack": 95,
-            "Sp. Defense": 125,
+            "Sp_Attack": 95,
+            "Sp_Defense": 125,
             "Speed": 85
         },
         "image": `${process.env.API_URL}/assets/pokemons/144.png`
@@ -3100,15 +3100,15 @@ const pokemonsList = [
             "french": "Électhor"
         },
         "type": [
-            "Electric",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Electric.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`
         ],
         "base": {
             "HP": 90,
             "Attack": 90,
             "Defense": 85,
-            "Sp. Attack": 125,
-            "Sp. Defense": 90,
+            "Sp_Attack": 125,
+            "Sp_Defense": 90,
             "Speed": 100
         },
         "image": `${process.env.API_URL}/assets/pokemons/145.png`
@@ -3122,15 +3122,15 @@ const pokemonsList = [
             "french": "Sulfura"
         },
         "type": [
-            "Fire",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Fire.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`
         ],
         "base": {
             "HP": 90,
             "Attack": 100,
             "Defense": 90,
-            "Sp. Attack": 125,
-            "Sp. Defense": 85,
+            "Sp_Attack": 125,
+            "Sp_Defense": 85,
             "Speed": 90
         },
         "image": `${process.env.API_URL}/assets/pokemons/146.png`
@@ -3144,14 +3144,14 @@ const pokemonsList = [
             "french": "Minidraco"
         },
         "type": [
-            "Dragon"
+            `${process.env.API_URL}/assets/types/Dragon.png`
         ],
         "base": {
             "HP": 41,
             "Attack": 64,
             "Defense": 45,
-            "Sp. Attack": 50,
-            "Sp. Defense": 50,
+            "Sp_Attack": 50,
+            "Sp_Defense": 50,
             "Speed": 50
         },
         "image": `${process.env.API_URL}/assets/pokemons/147.png`
@@ -3165,14 +3165,14 @@ const pokemonsList = [
             "french": "Draco"
         },
         "type": [
-            "Dragon"
+            `${process.env.API_URL}/assets/types/Dragon.png`
         ],
         "base": {
             "HP": 61,
             "Attack": 84,
             "Defense": 65,
-            "Sp. Attack": 70,
-            "Sp. Defense": 70,
+            "Sp_Attack": 70,
+            "Sp_Defense": 70,
             "Speed": 70
         },
         "image": `${process.env.API_URL}/assets/pokemons/148.png`
@@ -3186,15 +3186,15 @@ const pokemonsList = [
             "french": "Dracolosse"
         },
         "type": [
-            "Dragon",
-            "Flying"
+            `${process.env.API_URL}/assets/types/Dragon.png`,
+            `${process.env.API_URL}/assets/types/Flying.png`
         ],
         "base": {
             "HP": 91,
             "Attack": 134,
             "Defense": 95,
-            "Sp. Attack": 100,
-            "Sp. Defense": 100,
+            "Sp_Attack": 100,
+            "Sp_Defense": 100,
             "Speed": 80
         },
         "image": `${process.env.API_URL}/assets/pokemons/149.png`
@@ -3208,14 +3208,14 @@ const pokemonsList = [
             "french": "Mewtwo"
         },
         "type": [
-            "Psychic"
+            `${process.env.API_URL}/assets/types/Psychic.png`
         ],
         "base": {
             "HP": 106,
             "Attack": 110,
             "Defense": 90,
-            "Sp. Attack": 154,
-            "Sp. Defense": 90,
+            "Sp_Attack": 154,
+            "Sp_Defense": 90,
             "Speed": 130
         },
         "image": `${process.env.API_URL}/assets/pokemons/150.png`
@@ -3229,14 +3229,14 @@ const pokemonsList = [
             "french": "Mew"
         },
         "type": [
-            "Psychic"
+            `${process.env.API_URL}/assets/types/Psychic.png`
         ],
         "base": {
             "HP": 100,
             "Attack": 100,
             "Defense": 100,
-            "Sp. Attack": 100,
-            "Sp. Defense": 100,
+            "Sp_Attack": 100,
+            "Sp_Defense": 100,
             "Speed": 100
         },
         "image": `${process.env.API_URL}/assets/pokemons/151.png`
