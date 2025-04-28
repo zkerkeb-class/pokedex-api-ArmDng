@@ -2,6 +2,8 @@
 
 A RESTful API providing Pokémon data and authentication services for the Pokédex application.
 
+See the front for the link of the video that demonstrates the application.
+
 ## Features
 
 - **Pokémon Management**: CRUD operations for Pokémon data
