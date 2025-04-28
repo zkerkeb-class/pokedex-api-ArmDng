@@ -46,3 +46,15 @@ A RESTful API providing Pokémon data and authentication services for the Pokéd
    git clone https://github.com/ArmDng/pokedex-api-ArmDng.git
    cd pokedex-api-ArmDng
    ```
+
+   
+2. Create a `.env` file in the root directory and add the following environment variables:
+    ```plaintext
+    MONGODB_URI=mongodb://MONGODB_URL
+    JWT_SECRET=your_jwt_secret_key
+    FRONTEND_URL=FRONTENED_URL
+    ```
+3. Start the server
+   ```bash
+   npm run
+   ```
